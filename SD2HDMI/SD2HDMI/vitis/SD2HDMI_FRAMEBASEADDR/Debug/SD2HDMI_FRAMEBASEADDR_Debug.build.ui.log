@@ -1,0 +1,29 @@
+2022-04-14T21:12:06.475508700255-21:12:06 **** Incremental Build of configuration Debug for project SD2HDMI_FRAMEBASEADDR ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/main.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-../src/main.c: In function 'load_sd_bmp':
+000/SD2HDMI_FRAMEBASEADDR/src/main.c59-1-1variable 'bmp_size' set but not used [-Wunused-but-set-variable]1-../src/main.c:59:32: warning: variable 'bmp_size' set but not used [-Wunused-but-set-variable]
+000-   59 |  UINT  *bmp_width,*bmp_height,*bmp_size;
+000-      |                                ^~~~~~~~
+000-'Finished building: ../src/main.c'
+000-' '
+000-'Building target: SD2HDMI_FRAMEBASEADDR.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LF:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "SD2HDMI_FRAMEBASEADDR.elf"  ./src/vdma_api/vdma_api.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: SD2HDMI_FRAMEBASEADDR.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size SD2HDMI_FRAMEBASEADDR.elf  |tee "SD2HDMI_FRAMEBASEADDR.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  83764	   1320	  28704	 113788	  1bc7c	SD2HDMI_FRAMEBASEADDR.elf
+000-'Finished building: SD2HDMI_FRAMEBASEADDR.elf.size'
+000-' '
+00255-
+21:12:07 Build Finished (took 1s.17ms)
+

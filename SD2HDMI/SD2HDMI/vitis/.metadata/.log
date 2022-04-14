@@ -1,0 +1,829 @@
+!SESSION 2022-04-14 12:15:25.792 -----------------------------------------------
+eclipse.buildId=2021.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file F:\FKNV\SD2HDMI\SD2HDMI\vitis\.metadata\.bak_1.log
+Created Time: 2022-04-14 21:00:11.343
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:11.343
+!MESSAGE XSCT Command: [disconnect tcfchan#101], Thread: Thread-3362
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:11.346
+!MESSAGE XSCT command with result: [disconnect tcfchan#101], Result: [null, ]. Thread: Thread-3362
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.338
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.391
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#103]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.392
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.400
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.400
+!MESSAGE XSCT Command: [version -server], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.401
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.2]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.402
+!MESSAGE XSCT Command: [version], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.402
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.2.0
+SW Build 1967 on 2021-10-14-04:42:58
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.402
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.406
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.406
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.422
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.422
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.427
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.428
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.444
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.444
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.451
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.451
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.466
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.466
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.471
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.472
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.489
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.489
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.495
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.495
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.512
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.512
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.519
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.519
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.535
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.535
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.551
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Result: [null, ]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.551
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.621
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 10000000]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.621
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.631
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.632
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.695
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:12.696
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:15.698
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:15.710
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:15.716
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:15.716
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:15.731
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:15.732
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:15.796
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:15.797
+!MESSAGE XSCT Command: [fpga -file F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/bitstream/SD2HDMI_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:19.198
+!MESSAGE XSCT command with result: [fpga -file F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/bitstream/SD2HDMI_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:19.212
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:19.221
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:19.221
+!MESSAGE XSCT Command: [loadhw -hw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:19.235
+!MESSAGE XSCT command with result: [loadhw -hw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, SD2HDMI_wrapper_0]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:19.235
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:19.237
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:19.237
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:19.243
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:19.243
+!MESSAGE XSCT Command: [source F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/psinit/ps7_init.tcl], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:19.245
+!MESSAGE XSCT command with result: [source F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:19.245
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:20.094
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:20.094
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:20.100
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:20.100
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:20.284
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:20.284
+!MESSAGE XSCT Command: [dow F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/Debug/SD2HDMI_FRAMEBASEADDR.elf], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:20.768
+!MESSAGE XSCT command with result: [dow F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/Debug/SD2HDMI_FRAMEBASEADDR.elf], Result: [null, ]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:20.769
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:20.969
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:21.163
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:21.174
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:21.174
+!MESSAGE XSCT Command: [con], Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:00:21.347
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-168: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:53.723
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:53.726
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:53.727
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:53.729
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-04-14 21:02:53.729
+!MESSAGE Generating MD5 hash for file: F:\FKNV\SD2HDMI\SD2HDMI\vitis\SD2HDMI_wrapper\export\SD2HDMI_wrapper\sw\SD2HDMI_wrapper\standalone_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:53.752
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:53.754
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:55.225
+!MESSAGE XSCT Command: [disconnect tcfchan#103], Thread: Thread-3440
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:55.228
+!MESSAGE XSCT command with result: [disconnect tcfchan#103], Result: [null, ]. Thread: Thread-3440
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.231
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.269
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#105]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.270
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.277
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.277
+!MESSAGE XSCT Command: [version -server], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.278
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.2]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.278
+!MESSAGE XSCT Command: [version], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.279
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.2.0
+SW Build 1967 on 2021-10-14-04:42:58
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.279
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.284
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.284
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.302
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.302
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.307
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.307
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.323
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.323
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.329
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.330
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.345
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.345
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.351
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.351
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.368
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.368
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.373
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.373
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.388
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.389
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.394
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.395
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.410
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.411
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.426
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.427
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.499
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 10000000]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.500
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.510
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.510
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.575
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:56.575
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:59.589
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:59.605
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:59.621
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:59.621
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:59.652
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:59.653
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:59.685
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:02:59.686
+!MESSAGE XSCT Command: [fpga -file F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/bitstream/SD2HDMI_wrapper.bit], Thread: ModalContext
+
+!ENTRY org.eclipse.core.resources 4 568 2022-04-14 21:03:00.197
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: F:\FKNV\SD2HDMI\SD2HDMI\vitis\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (系统找不到指定的路径。)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:48)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:44)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1765)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1846)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1202)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.086
+!MESSAGE XSCT command with result: [fpga -file F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/bitstream/SD2HDMI_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.106
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.114
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.115
+!MESSAGE XSCT Command: [loadhw -hw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.128
+!MESSAGE XSCT command with result: [loadhw -hw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, SD2HDMI_wrapper_0]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.128
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.129
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.130
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.137
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.138
+!MESSAGE XSCT Command: [source F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/psinit/ps7_init.tcl], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.139
+!MESSAGE XSCT command with result: [source F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.140
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.641
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.641
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.646
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.646
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.822
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:03.822
+!MESSAGE XSCT Command: [dow F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/Debug/SD2HDMI_FRAMEBASEADDR.elf], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:04.307
+!MESSAGE XSCT command with result: [dow F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/Debug/SD2HDMI_FRAMEBASEADDR.elf], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:04.307
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:04.512
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:04.707
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:04.718
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:04.718
+!MESSAGE XSCT Command: [con], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:03:04.892
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY org.eclipse.core.resources 4 568 2022-04-14 21:08:06.153
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: F:\FKNV\SD2HDMI\SD2HDMI\vitis\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (系统找不到指定的路径。)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:48)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:44)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1765)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1846)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1202)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:06.446
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-168: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:06.451
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-168: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:06.451
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-168: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:06.454
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-168: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-04-14 21:12:06.454
+!MESSAGE Generating MD5 hash for file: F:\FKNV\SD2HDMI\SD2HDMI\vitis\SD2HDMI_wrapper\export\SD2HDMI_wrapper\sw\SD2HDMI_wrapper\standalone_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:06.454
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-168: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:06.456
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-168: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:08.722
+!MESSAGE XSCT Command: [disconnect tcfchan#105], Thread: Thread-3536
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:08.740
+!MESSAGE XSCT command with result: [disconnect tcfchan#105], Result: [null, ]. Thread: Thread-3536
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.753
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.838
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#107]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.838
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.845
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.846
+!MESSAGE XSCT Command: [version -server], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.847
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.2]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.847
+!MESSAGE XSCT Command: [version], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.847
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.2.0
+SW Build 1967 on 2021-10-14-04:42:58
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.848
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.852
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.852
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.868
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.868
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.874
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.874
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.890
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.891
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.897
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.897
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.912
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.913
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.919
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.919
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.935
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.935
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.941
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.941
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.957
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.957
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.963
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.963
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.980
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.980
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.997
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:09.997
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:10.047
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 10000000]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:10.047
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:10.776
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:10.776
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:10.843
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:10.843
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:13.851
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:13.868
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:13.882
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:13.882
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:13.913
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:13.913
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:13.993
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:13.993
+!MESSAGE XSCT Command: [fpga -file F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/bitstream/SD2HDMI_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:17.391
+!MESSAGE XSCT command with result: [fpga -file F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/bitstream/SD2HDMI_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:17.410
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:17.423
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:17.423
+!MESSAGE XSCT Command: [loadhw -hw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:17.438
+!MESSAGE XSCT command with result: [loadhw -hw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, SD2HDMI_wrapper_0]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:17.438
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:17.440
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:17.440
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:17.617
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:17.617
+!MESSAGE XSCT Command: [source F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/psinit/ps7_init.tcl], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:17.618
+!MESSAGE XSCT command with result: [source F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:17.618
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:18.286
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:18.286
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:18.466
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:18.466
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:18.473
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:18.473
+!MESSAGE XSCT Command: [dow F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/Debug/SD2HDMI_FRAMEBASEADDR.elf], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:18.928
+!MESSAGE XSCT command with result: [dow F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/Debug/SD2HDMI_FRAMEBASEADDR.elf], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:18.928
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:19.126
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:19.321
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:19.332
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:19.333
+!MESSAGE XSCT Command: [con], Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:12:19.521
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-185: Launching Debugger_SD2HDMI_FRAMEBASEADDR-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:14:05.440
+!MESSAGE XSCT Command: [disconnect tcfchan#107], Thread: Thread-3587
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-14 21:14:05.443
+!MESSAGE XSCT command with result: [disconnect tcfchan#107], Result: [null, ]. Thread: Thread-3587
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-04-14 21:14:16.771
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2022-04-14 21:14:16.771
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2022-04-14 21:14:16.771
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: F:\FKNV\SD2HDMI\SD2HDMI\vitis\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers (系统找不到指定的路径。)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1657)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1736)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1177)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2333)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:509)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)

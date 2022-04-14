@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Apr 11 08:34:18 2022
+# Process ID: 2748
+# Current directory: F:/FKNV/SD2HDMI/SD2HDMI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1460 F:\FKNV\SD2HDMI\SD2HDMI\SD2HDMI.xpr
+# Log file: F:/FKNV/SD2HDMI/SD2HDMI/vivado.log
+# Journal file: F:/FKNV/SD2HDMI/SD2HDMI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+eecreate_project SD2DVI F:/FKNV/SD2DVI -part xc7z020clg400-2
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+create_bd_design "SD2DVI"
+Wrote  : <F:/FKNV/SD2DVI/SD2DVI.srcs/sources_1/bd/SD2DVI/SD2DVI.bd> 
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 11 09:21:22 2022...

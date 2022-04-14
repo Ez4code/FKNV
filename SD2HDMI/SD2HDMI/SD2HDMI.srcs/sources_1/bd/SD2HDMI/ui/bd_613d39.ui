@@ -1,0 +1,63 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_Layers":"/rst_ps7_0_100M_peripheral_aresetn:true|/processing_system7_0_FCLK_RESET0_N:true|/processing_system7_0_FCLK_CLK0:true|",
+   "Default View_ScaleFactor":"0.848162",
+   "Default View_TopLeft":"1111,382",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Interfaces View_Layers":"/rst_ps7_0_100M_peripheral_aresetn:false|/processing_system7_0_FCLK_RESET0_N:false|/processing_system7_0_FCLK_CLK0:false|",
+   "Interfaces View_ScaleFactor":"1.0",
+   "Interfaces View_TopLeft":"-205,-391",
+   "No Loops_ScaleFactor":"0.883937",
+   "No Loops_TopLeft":"0,-324",
+   "Reduced Jogs_Layers":"/rst_ps7_0_100M_peripheral_aresetn:true|/processing_system7_0_FCLK_RESET0_N:true|/processing_system7_0_FCLK_CLK0:true|",
+   "Reduced Jogs_ScaleFactor":"0.837291",
+   "Reduced Jogs_TopLeft":"0,-333",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 6 -x 1970 -y 500 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 6 -x 1970 -y 520 -defaultsOSRD
+preplace port HDMI_DDC -pg 1 -lvl 6 -x 1970 -y 540 -defaultsOSRD
+preplace port TMDS -pg 1 -lvl 6 -x 1970 -y 790 -defaultsOSRD
+preplace port port-id_HDMI_OEN -pg 1 -lvl 6 -x 1970 -y 810 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -x 1700 -y 560 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 3 -x 920 -y 310 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 530 -y 590 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 200 -y 850 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 4 -x 1290 -y 620 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 3 -x 920 -y 580 -defaultsOSRD
+preplace inst axi_dynclk_0 -pg 1 -lvl 3 -x 920 -y 830 -defaultsOSRD
+preplace inst rgb2dvi_0 -pg 1 -lvl 5 -x 1700 -y 800 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 4 -x 1290 -y 300 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 3 -x 920 -y 100 -defaultsOSRD
+preplace netloc axi_dynclk_0_LOCKED_O 1 3 2 1120J 790 N
+preplace netloc axi_dynclk_0_PXL_CLK_5X_O 1 3 2 NJ 830 N
+preplace netloc axi_dynclk_0_PXL_CLK_O 1 2 3 740 730 1110 810 N
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 3 1 1120 140n
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 20 740 370 760 710 920 NJ 920 1460 690 1950
+preplace netloc processing_system7_0_FCLK_CLK1 1 2 4 740 430 1110 480 1450 680 1930
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 6 30 750 NJ 750 690 740 1100J 760 1470J 710 1940
+preplace netloc rgb2dvi_0_oen 1 5 1 NJ 810
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 2 380 770 730
+preplace netloc axi_vdma_0_M_AXIS_MM2S 1 3 1 1100 300n
+preplace netloc axi_vdma_0_M_AXI_MM2S 1 3 1 N 280
+preplace netloc processing_system7_0_DDR 1 5 1 NJ 500
+preplace netloc processing_system7_0_FIXED_IO 1 5 1 NJ 520
+preplace netloc processing_system7_0_IIC_0 1 5 1 NJ 540
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 5 370 420 NJ 420 NJ 420 NJ 420 1950
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 680 260n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 700 590n
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 1 720 490n
+preplace netloc rgb2dvi_0_TMDS 1 5 1 NJ 790
+preplace netloc smartconnect_0_M00_AXI 1 4 1 1460 300n
+preplace netloc v_axi4s_vid_out_0_vid_io_out 1 4 1 1440 550n
+preplace netloc v_tc_0_vtiming_out 1 3 1 N 560
+levelinfo -pg 1 0 200 530 920 1290 1700 1970
+pagesize -pg 1 -db -bbox -sgen 0 0 2100 950
+"
+}
+{
+   "da_axi4_cnt":"13",
+   "da_ps7_cnt":"2"
+}

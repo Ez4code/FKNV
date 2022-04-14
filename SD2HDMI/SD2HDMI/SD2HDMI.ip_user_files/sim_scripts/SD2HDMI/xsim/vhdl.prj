@@ -1,0 +1,19 @@
+vhdl xil_defaultlib  \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ip/SD2HDMI_axi_vdma_0_0/sim/SD2HDMI_axi_vdma_0_0.vhd" \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ip/SD2HDMI_rst_ps7_0_100M_0/sim/SD2HDMI_rst_ps7_0_100M_0.vhd" \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ip/SD2HDMI_v_tc_0_0/sim/SD2HDMI_v_tc_0_0.vhd" \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ipshared/9097/src/axi_dynclk_S00_AXI.vhd" \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ipshared/9097/src/axi_dynclk.vhd" \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ip/SD2HDMI_axi_dynclk_0_0/sim/SD2HDMI_axi_dynclk_0_0.vhd" \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ipshared/5c79/src/ClockGen.vhd" \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ipshared/5c79/src/SyncAsync.vhd" \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ipshared/5c79/src/SyncAsyncReset.vhd" \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ipshared/5c79/src/DVI_Constants.vhd" \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ipshared/5c79/src/OutputSERDES.vhd" \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ipshared/5c79/src/TMDS_Encoder.vhd" \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ipshared/5c79/src/rgb2dvi.vhd" \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ip/SD2HDMI_rgb2dvi_0_0/sim/SD2HDMI_rgb2dvi_0_0.vhd" \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ip/SD2HDMI_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_89e7_psr_aclk_0.vhd" \
+"../../../../SD2HDMI.gen/sources_1/bd/SD2HDMI/ip/SD2HDMI_proc_sys_reset_0_0/sim/SD2HDMI_proc_sys_reset_0_0.vhd" \
+
+nosort

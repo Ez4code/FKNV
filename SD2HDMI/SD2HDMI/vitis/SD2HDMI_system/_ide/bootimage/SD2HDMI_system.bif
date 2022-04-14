@@ -1,0 +1,12 @@
+/* C:/Users/HEPC/AppData/Local/Temp/bootgen_SD2HDMI_system1834462311230428683/sd_card_temp/boot.bif */
+/* Command to create bitstream .bin file:       */
+/*   bootgen -image <bif_file> -split bin -w    */
+/* Command to create BOOT.BIN file:             */
+/*   bootgen  -image <bif_file> -w -o i BOOT.BIN */
+/*SD2HDMI_wrapper*/
+the_ROM_image:
+{
+ [bootloader] F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/boot/fsbl.elf
+ F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI/_ide/bitstream/SD2HDMI_wrapper.bit
+ F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI/Debug/SD2HDMI.elf
+}

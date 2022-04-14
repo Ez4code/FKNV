@@ -1,0 +1,167 @@
+#include <stdio.h>
+#include "vdma_api.h"
+#include "display_ctrl/display_ctrl.h"
+#include "display_demo.h"
+#include "ff.h"
+#include "bmpfun.h"
+#include "xil_types.h"
+#include "xil_cache.h"
+#include "xil_printf.h"
+#include "xuartps.h"
+#include "xparameters.h"
+#include "sleep.h"
+
+//#include "bmp.h"
+
+#define STRIDE 			(1920*3)
+#define MAX_FRAME 		(1920*1080*3)
+
+#define VDMA_ID 			XPAR_AXIVDMA_0_DEVICE_ID
+#define VTC_ID				XPAR_VTC_0_DEVICE_ID
+
+//程序运行也是在DDR内存空间中，所以不能把图像存在此基地址为开始的存储空间
+#define DDR_BASE_ADDR		XPAR_PS7_DDR_0_S_AXI_BASEADDR
+unsigned int const FRAME_BUFFER_ADDR = (DDR_BASE_ADDR + 0x2000000)	//VDMA帧缓存地址
+#define DYNCLK_BASEADDR	 	XPAR_AXI_DYNCLK_0_BASEADDR
+
+
+
+/*
+ * Display Driver structs
+ */
+XAxiVdma vdma_inst;
+DisplayCtrl disp_inst;
+
+
+/* File object */
+static FIL fil;
+static FATFS fatfs;
+
+/*
+ * Framebuffers for video data
+ */
+u8 frameBuf[DISPLAY_NUM_FRAMES][DEMO_MAX_FRAME] __attribute__ ((aligned(64)));
+u8 *pFrames[DISPLAY_NUM_FRAMES];			//bmp存储区域
+//array of pointers to the frame buffers
+
+unsigned char read_line_buf[1920 * 3];
+
+int main(){
+
+
+	int Status;
+	int i = 0;
+	FRESULT rc;
+
+	XAxiVdma_Config *vdma_config;
+
+	for (i = 0; i < DISPLAY_NUM_FRAMES; i++)
+	{
+		pFrames[i] = frameBuf[i];
+
+	}
+
+
+//	/*
+//	 * Initialize VDMA driver
+//	 */
+//	vdma_config = XAxiVdma_LookupConfig(VDMA_ID);
+//	if (!vdma_config)
+//	{
+//		xil_printf("No video DMA found for ID %d\r\n", VDMA_ID);
+//
+//	}
+//	Status = XAxiVdma_CfgInitialize(&vdma_inst, vdma_config, vdma_config->BaseAddress);
+//	if (Status != XST_SUCCESS)
+//	{
+//		xil_printf("VDMA Configuration Initialization failed %d\r\n", Status);
+//	}
+
+	/*
+	* Initialize VDMA driver
+	*/
+	run_vdma_frame_buffer(&vdma_inst, VDMA_ID, VMODE_1920x1080.width, VMODE_1920x1080.height,
+			FRAME_BUFFER_ADDR,0, 0,ONLY_READ);
+
+
+
+	/*
+	 * Initialize the Display controller and start it
+	 */
+	Status = DisplayInitialize(&disp_inst, &vdma_inst, VTC_ID, DYNCLK_BASEADDR, pFrames, STRIDE);
+	if (Status != XST_SUCCESS)
+	{
+		xil_printf("Display Ctrl initialization failed during demo initialization%d\r\n", Status);
+
+	}
+	Status = DisplayStart(&disp_inst);
+	if (Status != XST_SUCCESS)
+	{
+		xil_printf("Couldn't start display during demo initialization%d\r\n", Status);
+
+	}
+
+
+	rc = f_mount(&fatfs, "0:/", 0);
+	if (rc != FR_OK)
+	{
+		return 0 ;
+	}
+
+	xil_printf("disp_inst.framePtr[disp_inst.curFrame] %d\r\n", &disp_inst.framePtr[disp_inst.curFrame]);
+
+	bmp_read("1.bmp",disp_inst.framePtr[disp_inst.curFrame], STRIDE);
+
+	Xil_DCacheFlushRange((unsigned int) disp_inst.framePtr[disp_inst.curFrame], MAX_FRAME);
+
+	return 0;
+}
+
+void bmp_read(char * bmp,u8 *frame,u32 stride)
+{
+
+	short y,x;
+	short Ximage;
+	short Yimage;
+	u32 iPixelAddr = 0;
+	FRESULT res;
+	unsigned char TMPBUF[64];
+	unsigned int br;         // File R/W count
+
+	res = f_open(&fil, bmp, FA_OPEN_EXISTING | FA_READ);
+	if(res != FR_OK)
+	{
+		return ;
+	}
+	res = f_read(&fil, TMPBUF, 54, &br);
+	if(res != FR_OK)
+	{
+		return ;
+	}
+	Ximage=(unsigned short int)TMPBUF[19]*256+TMPBUF[18];
+
+	Yimage=(unsigned short int)TMPBUF[23]*256+TMPBUF[22];
+	iPixelAddr = (Yimage-1)*stride ;
+
+	for(y = 0; y < Yimage ; y++)
+	{
+		f_read(&fil, read_line_buf, Ximage * 3, &br);
+		for(x = 0; x < Ximage; x++)
+		{
+			frame[x * BYTES_PIXEL + iPixelAddr + 0] = read_line_buf[x * 3 + 0];
+//			xil_printf("\r\n%d，%d,%d",read_line_buf[x * 3 + 0],x,y);
+//			xil_printf("\r\n%d",*frame);
+			frame[x * BYTES_PIXEL + iPixelAddr + 1] = read_line_buf[x * 3 + 1];
+//			xil_printf("\r\n%d，%d,%d",read_line_buf[x * 3 + 1],x,y);
+//			xil_printf("\r\n%d",*frame);
+			frame[x * BYTES_PIXEL + iPixelAddr + 2] = read_line_buf[x * 3 + 2];
+//			xil_printf("\r\n%d，%d,%d",read_line_buf[x * 3 + 2],x,y);
+//			xil_printf("\r\n%d",*frame);
+		}
+		iPixelAddr -= stride;
+	}
+
+
+	f_close(&fil);
+
+}

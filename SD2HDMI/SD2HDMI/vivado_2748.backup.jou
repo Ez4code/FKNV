@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Apr 11 08:34:18 2022
+# Process ID: 2748
+# Current directory: F:/FKNV/SD2HDMI/SD2HDMI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1460 F:\FKNV\SD2HDMI\SD2HDMI\SD2HDMI.xpr
+# Log file: F:/FKNV/SD2HDMI/SD2HDMI/vivado.log
+# Journal file: F:/FKNV/SD2HDMI/SD2HDMI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+i
+create_project SD2DVI F:/FKNV/SD2DVI -part xc7z020clg400-2
+create_bd_design "SD2DVI"
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
