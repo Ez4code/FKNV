@@ -1,6 +1,6 @@
-2022-04-14T21:12:04.829512800255-21:12:04 **** Build of project SD2HDMI_wrapper ****
-000-buildplatform.bat 60234 SD2HDMI_wrapper  
-000-XSDB Server Channel: tcfchan#106
+2022-04-14T22:48:43.103200100255-22:48:43 **** Build of project SD2HDMI_wrapper ****
+000-buildplatform.bat 53049 SD2HDMI_wrapper  
+000-XSDB Server Channel: tcfchan#3
 000-Failed to generate the platform.
 000-Reason: Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
 000-    invoked from within
@@ -17,5 +17,5 @@
 000-    set lastind..."
 000-    (file "F:/XILINX2021.2/Vitis/2021.2\scripts\vitis\util\buildplatform.tcl" line 11)
 00255-
-21:12:06 Build Finished (took 1s.487ms)
+22:48:44 Build Finished (took 1s.627ms)
 

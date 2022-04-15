@@ -76,8 +76,8 @@ void load_sd_bmp(u8 *frame)
 //		xil_printf(" %x",bmp_head[i]);
 
 	//打印BMP图片分辨率和大小
-	bmp_width  = (UINT *)(bmp_head + 0x12);   	//1920
-	bmp_height = (UINT *)(bmp_head + 0x16);		//1080
+	bmp_width  = (UINT *)(bmp_head + 0x12);
+	bmp_height = (UINT *)(bmp_head + 0x16);
 	bmp_size   = (UINT *)(bmp_head + 0x22);
 //	xil_printf("\n width = %d, height = %d, size = %d bytes \n\r",
 //			*bmp_width,*bmp_height,*bmp_size);
@@ -87,7 +87,7 @@ void load_sd_bmp(u8 *frame)
 		f_read(&fil,frame+i*(*bmp_width)*3,(*bmp_width)*3,&br);
 	}
 	xil_printf("frame addr:%d \n\r",frame);
-	xil_printf("sizeof frame addr:%d \n\r",sizeof(*frame));
+	xil_printf("sizeof frame addr:%d \n\r",sizeof(frame));
 	xil_printf("frame value:%d \n\r",*(frame+1));
 	xil_printf("frame value:%d \n\r",*(frame+2));
 	xil_printf("frame value:%d \n\r",*(frame+3));

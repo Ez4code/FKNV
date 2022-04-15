@@ -1,4 +1,4 @@
-21:12:06 **** Incremental Build of configuration Debug for project SD2HDMI_FRAMEBASEADDR ****
+22:48:44 **** Incremental Build of configuration Debug for project SD2HDMI_FRAMEBASEADDR ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -21,9 +21,9 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size SD2HDMI_FRAMEBASEADDR.elf  |tee "SD2HDMI_FRAMEBASEADDR.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  83764	   1320	  28704	 113788	  1bc7c	SD2HDMI_FRAMEBASEADDR.elf
+  83788	   1320	  28704	 113812	  1bc94	SD2HDMI_FRAMEBASEADDR.elf
 'Finished building: SD2HDMI_FRAMEBASEADDR.elf.size'
 ' '
 
-21:12:07 Build Finished (took 1s.17ms)
+22:48:45 Build Finished (took 935ms)
 

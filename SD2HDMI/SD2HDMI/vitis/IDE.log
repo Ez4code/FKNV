@@ -6700,3 +6700,105 @@ con
 
 21:12:19 INFO  : Launch script is exported to file 'F:\FKNV\SD2HDMI\SD2HDMI\vitis\SD2HDMI_FRAMEBASEADDR_system\_ide\scripts\debugger_sd2hdmi_framebaseaddr-default.tcl'
 21:14:05 INFO  : Disconnected from the channel tcfchan#107.
+22:35:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\FKNV\SD2HDMI\SD2HDMI\vitis\temp_xsdb_launch_script.tcl
+22:35:21 INFO  : Registering command handlers for Vitis TCF services
+22:35:21 INFO  : Platform repository initialization has completed.
+22:35:22 INFO  : XSCT server has started successfully.
+22:35:22 INFO  : plnx-install-location is set to ''
+22:35:36 INFO  : Successfully done setting XSCT server connection channel  
+22:35:36 INFO  : Successfully done query RDI_DATADIR 
+22:35:36 INFO  : Successfully done setting workspace for the tool. 
+22:38:23 INFO  : Checking for BSP changes to sync application flags for project 'SD2HDMI_FRAMEBASEADDR'...
+22:38:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:38:33 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+22:38:33 INFO  : 'jtag frequency' command is executed.
+22:38:33 INFO  : Context for 'APU' is selected.
+22:38:33 INFO  : System reset is completed.
+22:38:36 INFO  : 'after 3000' command is executed.
+22:38:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}' command is executed.
+22:38:40 INFO  : Device configured successfully with "F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/bitstream/SD2HDMI_wrapper.bit"
+22:38:40 INFO  : Context for 'APU' is selected.
+22:38:40 INFO  : Hardware design and registers information is loaded from 'F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa'.
+22:38:40 INFO  : 'configparams force-mem-access 1' command is executed.
+22:38:40 INFO  : Context for 'APU' is selected.
+22:38:40 INFO  : Sourcing of 'F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/psinit/ps7_init.tcl' is done.
+22:38:41 INFO  : 'ps7_init' command is executed.
+22:38:42 INFO  : 'ps7_post_config' command is executed.
+22:38:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:38:42 INFO  : The application 'F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/Debug/SD2HDMI_FRAMEBASEADDR.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:38:42 INFO  : 'configparams force-mem-access 0' command is executed.
+22:38:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}
+fpga -file F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/bitstream/SD2HDMI_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/Debug/SD2HDMI_FRAMEBASEADDR.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:38:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:38:43 INFO  : 'con' command is executed.
+22:38:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:38:43 INFO  : Launch script is exported to file 'F:\FKNV\SD2HDMI\SD2HDMI\vitis\SD2HDMI_FRAMEBASEADDR_system\_ide\scripts\debugger_sd2hdmi_framebaseaddr-default.tcl'
+22:48:44 INFO  : Checking for BSP changes to sync application flags for project 'SD2HDMI_FRAMEBASEADDR'...
+22:48:47 INFO  : Disconnected from the channel tcfchan#2.
+22:48:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:48:48 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+22:48:48 INFO  : 'jtag frequency' command is executed.
+22:48:50 INFO  : Context for 'APU' is selected.
+22:48:51 INFO  : System reset is completed.
+22:48:54 INFO  : 'after 3000' command is executed.
+22:48:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}' command is executed.
+22:48:57 INFO  : Device configured successfully with "F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/bitstream/SD2HDMI_wrapper.bit"
+22:48:57 INFO  : Context for 'APU' is selected.
+22:48:57 INFO  : Hardware design and registers information is loaded from 'F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa'.
+22:48:57 INFO  : 'configparams force-mem-access 1' command is executed.
+22:48:57 INFO  : Context for 'APU' is selected.
+22:48:57 INFO  : Sourcing of 'F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/psinit/ps7_init.tcl' is done.
+22:48:58 INFO  : 'ps7_init' command is executed.
+22:48:58 INFO  : 'ps7_post_config' command is executed.
+22:48:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:48:59 INFO  : The application 'F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/Debug/SD2HDMI_FRAMEBASEADDR.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:48:59 INFO  : 'configparams force-mem-access 0' command is executed.
+22:48:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}
+fpga -file F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/bitstream/SD2HDMI_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR/Debug/SD2HDMI_FRAMEBASEADDR.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:48:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:48:59 INFO  : 'con' command is executed.
+22:48:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:48:59 INFO  : Launch script is exported to file 'F:\FKNV\SD2HDMI\SD2HDMI\vitis\SD2HDMI_FRAMEBASEADDR_system\_ide\scripts\debugger_sd2hdmi_framebaseaddr-default.tcl'
+09:45:42 INFO  : Disconnected from the channel tcfchan#4.

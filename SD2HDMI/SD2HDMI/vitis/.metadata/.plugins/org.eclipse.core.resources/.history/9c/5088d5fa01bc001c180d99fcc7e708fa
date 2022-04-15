@@ -87,7 +87,7 @@ void load_sd_bmp(u8 *frame)
 		f_read(&fil,frame+i*(*bmp_width)*3,(*bmp_width)*3,&br);
 	}
 	xil_printf("frame addr:%d \n\r",frame);
-	xil_printf("sizeof frame addr:%d \n\r",sizeof(*frame));
+	xil_printf("sizeof frame addr:%d \n\r",sizeof(frame));
 	xil_printf("frame value:%d \n\r",*(frame+1));
 	xil_printf("frame value:%d \n\r",*(frame+2));
 	xil_printf("frame value:%d \n\r",*(frame+3));
