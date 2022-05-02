@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Apr 25 12:37:18 2022
+# Process ID: 20332
+# Current directory: F:/FKNV/add_pixels_test/add_pixels_test.runs/synth_1
+# Command line: vivado.exe -log add_pixel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source add_pixel.tcl
+# Log file: F:/FKNV/add_pixels_test/add_pixels_test.runs/synth_1/add_pixel.vds
+# Journal file: F:/FKNV/add_pixels_test/add_pixels_test.runs/synth_1\vivado.jou
+# Running On: CY-20210824MCYK, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 16805 MB
+#-----------------------------------------------------------
+source add_pixel.tcl -notrace

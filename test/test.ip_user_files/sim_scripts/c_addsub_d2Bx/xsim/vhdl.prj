@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../test.gen/sources_1/ip/c_addsub_d2Bx/sim/c_addsub_d2Bx.vhd" \
+
+nosort

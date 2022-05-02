@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"add_pixel_tb_func_synth.v" \
+"../../../../../add_pixels_test.srcs/sim_1/new/add_pixel_tb.v" \
+
+# Do not sort compile order
+nosort

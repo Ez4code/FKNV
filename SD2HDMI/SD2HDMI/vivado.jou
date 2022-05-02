@@ -2,10 +2,10 @@
 # Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
 # IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
-# Start of session at: Thu Apr 14 22:16:05 2022
-# Process ID: 15164
+# Start of session at: Fri Apr 29 10:41:18 2022
+# Process ID: 8196
 # Current directory: F:/FKNV/SD2HDMI/SD2HDMI
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16396 F:\FKNV\SD2HDMI\SD2HDMI\SD2HDMI.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2368 F:\FKNV\SD2HDMI\SD2HDMI\SD2HDMI.xpr
 # Log file: F:/FKNV/SD2HDMI/SD2HDMI/vivado.log
 # Journal file: F:/FKNV/SD2HDMI/SD2HDMI\vivado.jou
 # Running On: CY-20210824MCYK, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 16805 MB

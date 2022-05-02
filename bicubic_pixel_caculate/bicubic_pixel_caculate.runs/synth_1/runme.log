@@ -1,0 +1,353 @@
+
+*** Running vivado
+    with args -log get_pixel.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source get_pixel.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source get_pixel.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1410.953 ; gain = 0.000
+Command: synth_design -top get_pixel -part xc7z020clg400-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 81824
+WARNING: [Synth 8-2254] instance name 'd0B1' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:65]
+WARNING: [Synth 8-2254] instance name 'd0B1B0' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:72]
+WARNING: [Synth 8-2254] instance name 'd0_2B2' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:86]
+WARNING: [Synth 8-2254] instance name 'd0B2d0B1B0' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:93]
+WARNING: [Synth 8-2254] instance name 'd0_3B3' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:107]
+WARNING: [Synth 8-2254] instance name 'd1B1' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:123]
+WARNING: [Synth 8-2254] instance name 'd1B1B0' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:130]
+WARNING: [Synth 8-2254] instance name 'd1_2B2' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:144]
+WARNING: [Synth 8-2254] instance name 'd1B2d1B1B0' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:151]
+WARNING: [Synth 8-2254] instance name 'd1_3B3' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:165]
+WARNING: [Synth 8-2254] instance name 'd2B1' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:182]
+WARNING: [Synth 8-2254] instance name 'd2B1B0' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:189]
+WARNING: [Synth 8-2254] instance name 'd2_2B2' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:203]
+WARNING: [Synth 8-2254] instance name 'd2B2d2B1B0' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:210]
+WARNING: [Synth 8-2254] instance name 'd2_3B3' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:224]
+WARNING: [Synth 8-2254] instance name 'd3B1' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:240]
+WARNING: [Synth 8-2254] instance name 'd3B1B0' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:247]
+WARNING: [Synth 8-2254] instance name 'd3_2B2' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:261]
+WARNING: [Synth 8-2254] instance name 'd3B2d3B1B0' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:268]
+WARNING: [Synth 8-2254] instance name 'd3_3B3' matches net/port name [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:282]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1410.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'get_pixel' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mult_gen_singed' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.runs/synth_1/.Xil/Vivado-89232-CY-20210824MCYK/realtime/mult_gen_singed_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mult_gen_singed' (1#1) [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.runs/synth_1/.Xil/Vivado-89232-CY-20210824MCYK/realtime/mult_gen_singed_stub.v:6]
+WARNING: [Synth 8-689] width (35) of port connection 'P' does not match port width (36) of module 'mult_gen_singed' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:70]
+INFO: [Synth 8-6157] synthesizing module 'c_addsub_d0Bx' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.runs/synth_1/.Xil/Vivado-89232-CY-20210824MCYK/realtime/c_addsub_d0Bx_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_addsub_d0Bx' (2#1) [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.runs/synth_1/.Xil/Vivado-89232-CY-20210824MCYK/realtime/c_addsub_d0Bx_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mult_gen_LSB24' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.runs/synth_1/.Xil/Vivado-89232-CY-20210824MCYK/realtime/mult_gen_LSB24_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mult_gen_LSB24' (3#1) [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.runs/synth_1/.Xil/Vivado-89232-CY-20210824MCYK/realtime/mult_gen_LSB24_stub.v:6]
+WARNING: [Synth 8-689] width (35) of port connection 'P' does not match port width (36) of module 'mult_gen_singed' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:91]
+INFO: [Synth 8-6157] synthesizing module 'c_addsub_d1Bx' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.runs/synth_1/.Xil/Vivado-89232-CY-20210824MCYK/realtime/c_addsub_d1Bx_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_addsub_d1Bx' (4#1) [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.runs/synth_1/.Xil/Vivado-89232-CY-20210824MCYK/realtime/c_addsub_d1Bx_stub.v:6]
+WARNING: [Synth 8-689] width (35) of port connection 'P' does not match port width (36) of module 'mult_gen_singed' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:112]
+INFO: [Synth 8-6157] synthesizing module 'c_addsub_d2Bx' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.runs/synth_1/.Xil/Vivado-89232-CY-20210824MCYK/realtime/c_addsub_d2Bx_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_addsub_d2Bx' (5#1) [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.runs/synth_1/.Xil/Vivado-89232-CY-20210824MCYK/realtime/c_addsub_d2Bx_stub.v:6]
+WARNING: [Synth 8-689] width (39) of port connection 'S' does not match port width (38) of module 'c_addsub_d2Bx' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:119]
+WARNING: [Synth 8-689] width (35) of port connection 'P' does not match port width (36) of module 'mult_gen_singed' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:128]
+WARNING: [Synth 8-689] width (35) of port connection 'P' does not match port width (36) of module 'mult_gen_singed' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:149]
+WARNING: [Synth 8-689] width (35) of port connection 'P' does not match port width (36) of module 'mult_gen_singed' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:170]
+WARNING: [Synth 8-689] width (39) of port connection 'S' does not match port width (38) of module 'c_addsub_d2Bx' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:177]
+WARNING: [Synth 8-689] width (35) of port connection 'P' does not match port width (36) of module 'mult_gen_singed' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:187]
+WARNING: [Synth 8-689] width (35) of port connection 'P' does not match port width (36) of module 'mult_gen_singed' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:208]
+WARNING: [Synth 8-689] width (35) of port connection 'P' does not match port width (36) of module 'mult_gen_singed' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:229]
+WARNING: [Synth 8-689] width (39) of port connection 'S' does not match port width (38) of module 'c_addsub_d2Bx' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:236]
+WARNING: [Synth 8-689] width (35) of port connection 'P' does not match port width (36) of module 'mult_gen_singed' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:245]
+WARNING: [Synth 8-689] width (35) of port connection 'P' does not match port width (36) of module 'mult_gen_singed' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:266]
+WARNING: [Synth 8-689] width (35) of port connection 'P' does not match port width (36) of module 'mult_gen_singed' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:287]
+WARNING: [Synth 8-689] width (39) of port connection 'S' does not match port width (38) of module 'c_addsub_d2Bx' [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:294]
+WARNING: [Synth 8-3848] Net pixel0 in module/entity get_pixel does not have driver. [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:14]
+WARNING: [Synth 8-3848] Net pixel1 in module/entity get_pixel does not have driver. [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:15]
+WARNING: [Synth 8-3848] Net pixel2 in module/entity get_pixel does not have driver. [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:16]
+WARNING: [Synth 8-3848] Net pixel3 in module/entity get_pixel does not have driver. [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:17]
+INFO: [Synth 8-6155] done synthesizing module 'get_pixel' (6#1) [F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1410.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1410.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1410.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1410.953 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d0_2'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d0_2'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d0_3'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d0_3'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d1_2'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d1_2'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d1_3'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d1_3'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d2_2'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d2_2'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d2_3'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d2_3'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d3_2'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d3_2'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d3_3'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_LSB24/mult_gen_LSB24/mult_gen_LSB24_in_context.xdc] for cell 'pixel_d3_3'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd0B1'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd0B1'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd0_2B2'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd0_2B2'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd0_3B3'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd0_3B3'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd1B1'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd1B1'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd1_2B2'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd1_2B2'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd1_3B3'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd1_3B3'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd2B1'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd2B1'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd2_2B2'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd2_2B2'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd2_3B3'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd2_3B3'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd3B1'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd3B1'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd3_2B2'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd3_2B2'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd3_3B3'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/mult_gen_singed/mult_gen_singed/mult_gen_singed_in_context.xdc] for cell 'd3_3B3'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d0Bx/c_addsub_d0Bx/c_addsub_d0Bx_in_context.xdc] for cell 'd0B1B0'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d0Bx/c_addsub_d0Bx/c_addsub_d0Bx_in_context.xdc] for cell 'd0B1B0'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d0Bx/c_addsub_d0Bx/c_addsub_d0Bx_in_context.xdc] for cell 'd1B1B0'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d0Bx/c_addsub_d0Bx/c_addsub_d0Bx_in_context.xdc] for cell 'd1B1B0'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d0Bx/c_addsub_d0Bx/c_addsub_d0Bx_in_context.xdc] for cell 'd2B1B0'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d0Bx/c_addsub_d0Bx/c_addsub_d0Bx_in_context.xdc] for cell 'd2B1B0'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d0Bx/c_addsub_d0Bx/c_addsub_d0Bx_in_context.xdc] for cell 'd3B1B0'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d0Bx/c_addsub_d0Bx/c_addsub_d0Bx_in_context.xdc] for cell 'd3B1B0'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d1Bx/c_addsub_d1Bx/c_addsub_d1Bx_in_context.xdc] for cell 'd0B2d0B1B0'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d1Bx/c_addsub_d1Bx/c_addsub_d1Bx_in_context.xdc] for cell 'd0B2d0B1B0'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d1Bx/c_addsub_d1Bx/c_addsub_d1Bx_in_context.xdc] for cell 'd1B2d1B1B0'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d1Bx/c_addsub_d1Bx/c_addsub_d1Bx_in_context.xdc] for cell 'd1B2d1B1B0'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d1Bx/c_addsub_d1Bx/c_addsub_d1Bx_in_context.xdc] for cell 'd2B2d2B1B0'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d1Bx/c_addsub_d1Bx/c_addsub_d1Bx_in_context.xdc] for cell 'd2B2d2B1B0'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d1Bx/c_addsub_d1Bx/c_addsub_d1Bx_in_context.xdc] for cell 'd3B2d3B1B0'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d1Bx/c_addsub_d1Bx/c_addsub_d1Bx_in_context.xdc] for cell 'd3B2d3B1B0'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d2Bx/c_addsub_d2Bx/c_addsub_d2Bx_in_context.xdc] for cell 'd0B3d0B2d0B1B0'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d2Bx/c_addsub_d2Bx/c_addsub_d2Bx_in_context.xdc] for cell 'd0B3d0B2d0B1B0'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d2Bx/c_addsub_d2Bx/c_addsub_d2Bx_in_context.xdc] for cell 'd1B3d1B2d1B1B0'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d2Bx/c_addsub_d2Bx/c_addsub_d2Bx_in_context.xdc] for cell 'd1B3d1B2d1B1B0'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d2Bx/c_addsub_d2Bx/c_addsub_d2Bx_in_context.xdc] for cell 'd2B3d2B2d2B1B0'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d2Bx/c_addsub_d2Bx/c_addsub_d2Bx_in_context.xdc] for cell 'd2B3d2B2d2B1B0'
+Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d2Bx/c_addsub_d2Bx/c_addsub_d2Bx_in_context.xdc] for cell 'd3B3d3B2d3B1B0'
+Finished Parsing XDC File [f:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d2Bx/c_addsub_d2Bx/c_addsub_d2Bx_in_context.xdc] for cell 'd3B3d3B2d3B1B0'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1410.953 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1410.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1410.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1410.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for pixel_d0_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for pixel_d0_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for pixel_d1_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for pixel_d1_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for pixel_d2_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for pixel_d2_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for pixel_d3_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for pixel_d3_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d0B1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d0_2B2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d0_3B3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d1B1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d1_2B2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d1_3B3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d2B1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d2_2B2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d2_3B3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d3B1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d3_2B2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d3_3B3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d0B1B0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d1B1B0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d2B1B0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d3B1B0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d0B2d0B1B0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d1B2d1B1B0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d2B2d2B1B0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d3B2d3B1B0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d0B3d0B2d0B1B0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d1B3d1B2d1B1B0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d2B3d2B2d2B1B0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for d3B3d3B2d3B1B0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1410.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1410.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1410.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1419.078 ; gain = 8.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1419.301 ; gain = 8.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1438.414 ; gain = 27.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1444.484 ; gain = 33.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1444.484 ; gain = 33.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1444.484 ; gain = 33.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1444.484 ; gain = 33.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1444.484 ; gain = 33.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1444.484 ; gain = 33.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------+----------+
+|      |BlackBox name   |Instances |
++------+----------------+----------+
+|1     |mult_gen_singed |        12|
+|2     |c_addsub_d0Bx   |         4|
+|3     |mult_gen_LSB24  |         8|
+|4     |c_addsub_d1Bx   |         4|
+|5     |c_addsub_d2Bx   |         4|
++------+----------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |c_addsub_d0Bx   |     4|
+|5     |c_addsub_d1Bx   |     4|
+|9     |c_addsub_d2Bx   |     4|
+|13    |mult_gen_LSB24  |     8|
+|21    |mult_gen_singed |    12|
+|33    |IBUF            |   138|
+|34    |OBUF            |    32|
++------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1444.484 ; gain = 33.531
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 1444.484 ; gain = 33.531
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1444.484 ; gain = 33.531
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1456.551 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1467.906 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 632cd5cd
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 41 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1467.906 ; gain = 56.953
+INFO: [Common 17-1381] The checkpoint 'F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.runs/synth_1/get_pixel.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file get_pixel_utilization_synth.rpt -pb get_pixel_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 27 16:50:55 2022...

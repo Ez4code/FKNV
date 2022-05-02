@@ -1,0 +1,1 @@
+c_addsub_d1Bx.vhd,vhdl,xil_defaultlib,../../../../get_pixel_test.gen/sources_1/ip/c_addsub_d1Bx/sim/c_addsub_d1Bx.vhd,

@@ -93,23 +93,14 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
+        <CompFileExtendedInfo CompFileName="SD2HDMI.bd" FileRelPathName="ip/SD2HDMI_axi_dynclk_0_0/SD2HDMI_axi_dynclk_0_0.xci">
+          <Proxy FileSetName="SD2HDMI_axi_dynclk_0_0"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="SD2HDMI.bd" FileRelPathName="ip/SD2HDMI_v_tc_0_0/SD2HDMI_v_tc_0_0.xci">
           <Proxy FileSetName="SD2HDMI_v_tc_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="SD2HDMI.bd" FileRelPathName="ip/SD2HDMI_rst_ps7_0_100M_0/SD2HDMI_rst_ps7_0_100M_0.xci">
           <Proxy FileSetName="SD2HDMI_rst_ps7_0_100M_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="SD2HDMI.bd" FileRelPathName="ip/SD2HDMI_v_axi4s_vid_out_0_0/SD2HDMI_v_axi4s_vid_out_0_0.xci">
-          <Proxy FileSetName="SD2HDMI_v_axi4s_vid_out_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="SD2HDMI.bd" FileRelPathName="ip/SD2HDMI_rgb2dvi_0_0/SD2HDMI_rgb2dvi_0_0.xci">
-          <Proxy FileSetName="SD2HDMI_rgb2dvi_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="SD2HDMI.bd" FileRelPathName="ip/SD2HDMI_proc_sys_reset_0_0/SD2HDMI_proc_sys_reset_0_0.xci">
-          <Proxy FileSetName="SD2HDMI_proc_sys_reset_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="SD2HDMI.bd" FileRelPathName="ip/SD2HDMI_axi_dynclk_0_0/SD2HDMI_axi_dynclk_0_0.xci">
-          <Proxy FileSetName="SD2HDMI_axi_dynclk_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="SD2HDMI.bd" FileRelPathName="ip/SD2HDMI_processing_system7_0_1/SD2HDMI_processing_system7_0_1.xci">
           <Proxy FileSetName="SD2HDMI_processing_system7_0_1"/>
@@ -120,15 +111,17 @@
         <CompFileExtendedInfo CompFileName="SD2HDMI.bd" FileRelPathName="ip/SD2HDMI_xbar_0/SD2HDMI_xbar_0.xci">
           <Proxy FileSetName="SD2HDMI_xbar_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="SD2HDMI.bd" FileRelPathName="ip/SD2HDMI_v_axi4s_vid_out_0_0/SD2HDMI_v_axi4s_vid_out_0_0.xci">
+          <Proxy FileSetName="SD2HDMI_v_axi4s_vid_out_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="SD2HDMI.bd" FileRelPathName="ip/SD2HDMI_proc_sys_reset_0_0/SD2HDMI_proc_sys_reset_0_0.xci">
+          <Proxy FileSetName="SD2HDMI_proc_sys_reset_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="SD2HDMI.bd" FileRelPathName="ip/SD2HDMI_rgb2dvi_0_0/SD2HDMI_rgb2dvi_0_0.xci">
+          <Proxy FileSetName="SD2HDMI_rgb2dvi_0_0"/>
+        </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/SD2HDMI/hdl/SD2HDMI_wrapper.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/bicubic_pixel_caculate.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

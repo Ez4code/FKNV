@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="SD2HDMI_FRAMEBASEADDR" location="F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_FRAMEBASEADDR" platform="F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/SD2HDMI_wrapper.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="SD2HDMI_FRAMEBASEADDR_system" sysConfig="SD2HDMI_wrapper" runtime="C/C++" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="bd281b8f0df295d30543939f6877efdc">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.300851916">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1638865982" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

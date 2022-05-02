@@ -2,10 +2,10 @@
 # Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
 # IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
-# Start of session at: Thu Apr 14 22:16:05 2022
-# Process ID: 15164
+# Start of session at: Fri Apr 29 10:41:18 2022
+# Process ID: 8196
 # Current directory: F:/FKNV/SD2HDMI/SD2HDMI
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16396 F:\FKNV\SD2HDMI\SD2HDMI\SD2HDMI.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2368 F:\FKNV\SD2HDMI\SD2HDMI\SD2HDMI.xpr
 # Log file: F:/FKNV/SD2HDMI/SD2HDMI/vivado.log
 # Journal file: F:/FKNV/SD2HDMI/SD2HDMI\vivado.jou
 # Running On: CY-20210824MCYK, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 16805 MB
@@ -31,8 +31,9 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/FKNV/SD2HDMI/repo/ip'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/XILINX2021.2/Vivado/2021.2/data/ip'.
-open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1390.020 ; gain = 0.000
-INFO: [Common 17-41] Interrupt caught. Command should exit soon.
-SD2HDMI
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1391.918 ; gain = 0.000
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
 exit
-INFO: [Common 17-206] Exiting Vivado at Thu Apr 14 22:17:38 2022...
+INFO: [Common 17-206] Exiting Vivado at Mon May  2 22:19:32 2022...

@@ -1,0 +1,209 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "xil_types.h"
+#include "xil_cache.h"
+#include "xparameters.h"
+#include "xaxivdma.h"
+#include "xaxivdma_i.h"
+#include "display_ctrl_hdmi/display_ctrl.h"
+#include "vdma_api/vdma_api.h"
+#include "ff.h"
+
+//ï¿½ê¶¨ï¿½ï¿½
+#define BYTES_PIXEL 3							   //ï¿½ï¿½ï¿½ï¿½ï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½RGB888Õ¼3ï¿½ï¿½ï¿½Ö½ï¿½
+#define DYNCLK_BASEADDR XPAR_AXI_DYNCLK_0_BASEADDR //ï¿½ï¿½Ì¬Ê±ï¿½Ó»ï¿½ï¿½ï¿½Ö·
+#define VDMA_ID XPAR_AXIVDMA_0_DEVICE_ID		   // VDMAï¿½ï¿½ï¿½ï¿½ID
+#define VTC_ID XPAR_VTC_0_DEVICE_ID				   // VTCï¿½ï¿½ï¿½ï¿½ID
+
+
+#define FILE_NAME "bmpout.txt"                //¶¨ÒåÎÄ¼þÃû
+
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+void load_sd_bmp(u8 *frame);
+
+//È«ï¿½Ö±ï¿½ï¿½ï¿½
+XAxiVdma vdma_inst;
+DisplayCtrl disp_inst;
+VideoMode vd_mode;
+// frame bufferï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½Ö·
+#define DDR_BASE_ADDR XPAR_PS7_DDR_0_S_AXI_BASEADDR
+unsigned int const frame_buffer_addr = (DDR_BASE_ADDR + 0x1000000);
+unsigned int lcd_id = 0; // LCD ID
+
+int main(void)
+{
+
+	//ï¿½ï¿½ï¿½ï¿½videoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö±ï¿½ï¿½Ê£ï¿½1920*1080
+	vd_mode = VMODE_1920x1080;
+
+	//ï¿½ï¿½ï¿½ï¿½VDMA
+	run_vdma_frame_buffer(&vdma_inst, VDMA_ID, vd_mode.width, vd_mode.height,
+						  frame_buffer_addr, 0, 0, ONLY_READ);
+
+	//ï¿½ï¿½Ê¼ï¿½ï¿½Display controller
+	DisplayInitialize(&disp_inst, VTC_ID, DYNCLK_BASEADDR);
+	//ï¿½ï¿½ï¿½ï¿½VideoMode
+	DisplaySetMode(&disp_inst, &vd_mode);
+	DisplayStart(&disp_inst);
+
+	//ï¿½ï¿½È¡SDï¿½ï¿½Í¼Æ¬ï¿½ï¿½ï¿½ï¿½Ê¾
+	load_sd_bmp((u8 *)frame_buffer_addr);
+
+    sd_write_data(FILE_NAME,(u32)frame_buffer_addr,(1924*1084));
+
+	return 0;
+}
+
+//ï¿½ï¿½SDï¿½ï¿½ï¿½Ð¶ï¿½È¡BMPÍ¼Æ¬
+void load_sd_bmp(u8 *frame)
+{
+	static FATFS fatfs;
+	FIL fil;
+	u8 bmp_head[54];
+	UINT *bmp_width, *bmp_height, *bmp_size;
+	UINT br;
+	int i, line_i;
+	u8 *frame_corner = frame;
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ÏµÍ³
+	f_mount(&fatfs, "", 1);
+
+	//ï¿½ï¿½ï¿½Ä¼ï¿½
+	f_open(&fil, "3.bmp", FA_READ);
+
+	//ï¿½Æ¶ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Ð´Ö¸ï¿½ëµ½ï¿½Ä¼ï¿½ï¿½ï¿½Í·
+	f_lseek(&fil, 0);
+
+	//ï¿½ï¿½È¡BMPï¿½Ä¼ï¿½Í·
+	f_read(&fil, bmp_head, 54, &br);
+	//	xil_printf("1.bmp head: \n\r");
+	//	for(i=0;i<54;i++)
+	//		xil_printf(" %x",bmp_head[i]);
+
+	//ï¿½ï¿½Ó¡BMPÍ¼Æ¬ï¿½Ö±ï¿½ï¿½ÊºÍ´ï¿½Ð¡
+	bmp_width = (UINT *)(bmp_head + 0x12);	// 1920
+	bmp_height = (UINT *)(bmp_head + 0x16); // 1080
+	bmp_size = (UINT *)(bmp_head + 0x22);
+	//	xil_printf("\n width = %d, height = %d, size = %d bytes \n\r",
+	//			*bmp_width,*bmp_height,*bmp_size);
+
+	frame_corner = (u8 *)(frame + (*bmp_height + 4) * (*bmp_width + 4) * 3);
+
+	//ï¿½ï¿½ï¿½ï¿½Í¼Æ¬ï¿½ï¿½Ð´ï¿½ï¿½DDR meantain padding
+	for (i = *bmp_height - 1 + 4; i >= 0; i--)
+	{
+
+		f_read(&fil, frame_corner, (*bmp_width) * 3, &br);
+
+		if ((i != (*bmp_height - 1 + 4)) && (i != 2))
+		{ // line:3 -> 2159
+
+			//			*(frame+i*(*bmp_width)*3 + 0) =  * (frame_corner + 0);										//padding first 2 pixels(RGB)
+			//			*(frame+i*(*bmp_width)*3 + 1) =  * (frame_corner + 1);
+			//			*(frame+i*(*bmp_width)*3 + 2) =  * (frame_corner + 2);
+			//
+			//			*(frame+i*(*bmp_width)*3 + 3) =  * (frame_corner + 3);
+			//			*(frame+i*(*bmp_width)*3 + 4) =  * (frame_corner + 4);
+			//			*(frame+i*(*bmp_width)*3 + 5) =  * (frame_corner + 5);
+			//
+			//			for(line_i=0; line_i <= (*bmp_width)*3 - 1 ; line_i++){
+			//				*(frame+i*(*bmp_width)*3 + 6 + line_i) =  * (frame_corner + line_i);
+			//			}
+			//
+			//			*(frame+i*(*bmp_width)*3 + (*bmp_width)*3 + 0) =  * (frame_corner+(*bmp_width)*3 - 3);		//padding last 2 pixels(RGB)
+			//			*(frame+i*(*bmp_width)*3 + (*bmp_width)*3 + 1) =  * (frame_corner+(*bmp_width)*3 - 2);
+			//			*(frame+i*(*bmp_width)*3 + (*bmp_width)*3 + 2) =  * (frame_corner+(*bmp_width)*3 - 1);
+			//
+			//			*(frame+i*(*bmp_width)*3 + (*bmp_width)*3 + 3) =  * (frame_corner+(*bmp_width)*3 - 3);
+			//			*(frame+i*(*bmp_width)*3 + (*bmp_width)*3 + 4) =  * (frame_corner+(*bmp_width)*3 - 2);
+			//			*(frame+i*(*bmp_width)*3 + (*bmp_width)*3 + 5) =  * (frame_corner+(*bmp_width)*3 - 1);
+
+			// for debug
+			*(frame + i * (*bmp_width) * 3 + 0) = *(frame_corner + 0); // padding first 2 pixels(RGB)
+			*(frame + i * (*bmp_width) * 3 + 1) = *(frame_corner + 1);
+			*(frame + i * (*bmp_width) * 3 + 2) = *(frame_corner + 2);
+
+			*(frame + i * (*bmp_width) * 3 + 3) = *(frame_corner + 3);
+			*(frame + i * (*bmp_width) * 3 + 4) = *(frame_corner + 4);
+			*(frame + i * (*bmp_width) * 3 + 5) = *(frame_corner + 5);
+
+			for (line_i = 0; line_i <= (*bmp_width) * 3 - 1; line_i++)
+			{
+				*(frame + i * (*bmp_width) * 3 + 6 + line_i) = *(frame_corner + line_i);
+			}
+
+			*(frame + i * (*bmp_width) * 3 + (*bmp_width) * 3 + 0) = 255; // padding last 2 pixels(RGB)
+			*(frame + i * (*bmp_width) * 3 + (*bmp_width) * 3 + 1) = 255;
+			*(frame + i * (*bmp_width) * 3 + (*bmp_width) * 3 + 2) = 255;
+
+			*(frame + i * (*bmp_width) * 3 + (*bmp_width) * 3 + 3) = 255;
+			*(frame + i * (*bmp_width) * 3 + (*bmp_width) * 3 + 4) = 255;
+			*(frame + i * (*bmp_width) * 3 + (*bmp_width) * 3 + 5) = 255;
+		}
+
+		//		else if((i == (*bmp_height-1+3)) || (i == (*bmp_height-1+4))){
+		else if ((i == (*bmp_height - 1 + 4)) || (i == 2))
+		{
+
+			while ((i == (*bmp_height - 1 + 2)) || (i == (*bmp_height - 1 + 3)) || (i == (*bmp_height - 1 + 4)) // line:2160/2161/2162 are same
+				   || (i == 0) || (i == 1) || (i == 2))
+			{ // line:0/1/2		   are same
+
+				*(frame + i * (*bmp_width) * 3) = *(frame_corner + 0); // padding first 2 pixels(RGB)
+				*(frame + i * (*bmp_width) * 3 + 1) = *(frame_corner + 1);
+				*(frame + i * (*bmp_width) * 3 + 2) = *(frame_corner + 2);
+
+				*(frame + i * (*bmp_width) * 3 + 3) = *(frame_corner + 3);
+				*(frame + i * (*bmp_width) * 3 + 4) = *(frame_corner + 4);
+				*(frame + i * (*bmp_width) * 3 + 5) = *(frame_corner + 5);
+
+				for (line_i = 0; line_i <= (*bmp_width) * 3 - 1; line_i++)
+				{
+					*(frame + i * (*bmp_width) * 3 + 6 + line_i) = *(frame_corner + line_i);
+				}
+
+				*(frame + i * (*bmp_width) * 3 + (*bmp_width) * 3 + 0) = *(frame_corner + (*bmp_width) * 3 - 3); // padding last 2 pixels(RGB)
+				*(frame + i * (*bmp_width) * 3 + (*bmp_width) * 3 + 1) = *(frame_corner + (*bmp_width) * 3 - 2);
+				*(frame + i * (*bmp_width) * 3 + (*bmp_width) * 3 + 2) = *(frame_corner + (*bmp_width) * 3 - 1);
+
+				*(frame + i * (*bmp_width) * 3 + (*bmp_width) * 3 + 3) = *(frame_corner + (*bmp_width) * 3 - 3);
+				*(frame + i * (*bmp_width) * 3 + (*bmp_width) * 3 + 4) = *(frame_corner + (*bmp_width) * 3 - 2);
+				*(frame + i * (*bmp_width) * 3 + (*bmp_width) * 3 + 5) = *(frame_corner + (*bmp_width) * 3 - 1);
+
+				i = i - 1;
+			}
+		}
+	}
+
+	xil_printf("frame addr:%d \n\r", frame);
+	xil_printf("sizeof frame addr:%d \n\r", sizeof(*frame));
+	xil_printf("frame value:%d \n\r", *(frame + 1));
+	xil_printf("frame value:%d \n\r", *(frame + 2));
+	xil_printf("frame value:%d \n\r", *(frame + 3));
+	xil_printf("frame value:%d \n\r", *(frame + 4));
+
+	//ï¿½Ø±ï¿½ï¿½Ä¼ï¿½
+	f_close(&fil);
+
+	Xil_DCacheFlush(); //Ë¢ï¿½ï¿½Cacheï¿½ï¿½ï¿½ï¿½ï¿½Ý¸ï¿½ï¿½ï¿½ï¿½ï¿½DDR3ï¿½ï¿½
+					   //	xil_printf("show bmp\n\r");
+}
+
+
+
+
+int sd_write_data(char *file_name,u32 src_addr,u32 byte_len)
+{
+    FIL fil;         //ÎÄ¼þ¶ÔÏó
+    UINT bw;         //f_writeº¯Êý·µ»ØÒÑÐ´ÈëµÄ×Ö½ÚÊý
+
+    //´ò¿ªÒ»¸öÎÄ¼þ,Èç¹û²»´æÔÚ£¬Ôò´´½¨Ò»¸öÎÄ¼þ
+    f_open(&fil,file_name,FA_CREATE_ALWAYS | FA_WRITE);
+    //ÒÆ¶¯´ò¿ªµÄÎÄ¼þ¶ÔÏóµÄÎÄ¼þ¶Á/Ð´Ö¸Õë     0:Ö¸ÏòÎÄ¼þ¿ªÍ·
+    f_lseek(&fil, 0);
+    //ÏòÎÄ¼þÖÐÐ´ÈëÊý¾Ý
+    f_write(&fil,(void*) src_addr,byte_len,&bw);
+    //¹Ø±ÕÎÄ¼þ
+    f_close(&fil);
+    return 0;
+}

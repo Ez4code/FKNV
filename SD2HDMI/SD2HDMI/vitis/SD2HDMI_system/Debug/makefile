@@ -19,13 +19,13 @@ RMDIR = rm -rf
 SDCARD_GEN = sdcard_gen
 GENERATE_BIF = ::scw::generate_bif
 
-XPFM_PATH = F:/LX/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/SD2HDMI_wrapper.xpfm
+XPFM_PATH = F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/SD2HDMI_wrapper.xpfm
 SYS_CONFIG = SD2HDMI_wrapper
 DOMAINS = standalone_ps7_cortexa9_0
-BIF_PATH = F:/LX/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_system/Debug/system.bif
+BIF_PATH = F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_system/Debug/system.bif
 
-BITSTREAM_PATH = F:/LX/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI/_ide/bitstream/SD2HDMI_wrapper.bit
-SD_FILES = --elf F:/LX/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI/Debug/SD2HDMI.elf,ps7_cortexa9_0
+BITSTREAM_PATH = F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI/_ide/bitstream/SD2HDMI_wrapper.bit
+SD_FILES = --elf F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI/Debug/SD2HDMI.elf,ps7_cortexa9_0
 
 #
 # primary build targets
@@ -35,7 +35,7 @@ all: package
 
 package:
 	-@echo Generating bif file for the system project
-	generate_system_bif.bat 50831 ${XPFM_PATH} ${DOMAINS} ${BIF_PATH}
+	generate_system_bif.bat 57256 ${XPFM_PATH} ${DOMAINS} ${BIF_PATH}
 	${SDCARD_GEN} --xpfm ${XPFM_PATH} --sys_config ${SYS_CONFIG} --bif ${BIF_PATH} --bitstream ${BITSTREAM_PATH} ${SD_FILES}
 
 clean:

@@ -1,0 +1,90 @@
+
+*** Running vivado
+    with args -log add_pixel.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source add_pixel.tcl -notrace
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source add_pixel.tcl -notrace
+Command: link_design -top add_pixel -part xc7z020clg400-2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1446.445 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1446.445 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1446.445 ; gain = 0.000
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B0_OBUF[0] has multiple drivers: B0_reg[0]/Q, and B0_reg[0]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B0_OBUF[1] has multiple drivers: B0_reg[1]/Q, and B0_reg[1]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B0_OBUF[2] has multiple drivers: B0_reg[2]__0/Q, and B0_reg[2]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B0_OBUF[3] has multiple drivers: B0_reg[3]__0/Q, and B0_reg[3]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B0_OBUF[4] has multiple drivers: B0_reg[4]__0/Q, and B0_reg[4]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B0_OBUF[5] has multiple drivers: B0_reg[5]__0/Q, and B0_reg[5]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B0_OBUF[6] has multiple drivers: B0_reg[6]/Q, and B0_reg[6]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B0_OBUF[7] has multiple drivers: B0_reg[7]__0/Q, and B0_reg[7]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B1_OBUF[0] has multiple drivers: B1_reg[0]/Q, and B1_reg[0]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B1_OBUF[10] has multiple drivers: B1_reg[10]/Q, and B1_reg[10]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B1_OBUF[11] has multiple drivers: B1_reg[11]/Q, and B1_reg[11]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B1_OBUF[1] has multiple drivers: B1_reg[1]__0/Q, and B1_reg[1]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B1_OBUF[2] has multiple drivers: B1_reg[2]__0/Q, and B1_reg[2]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B1_OBUF[3] has multiple drivers: B1_reg[3]__0/Q, and B1_reg[3]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B1_OBUF[4] has multiple drivers: B1_reg[4]__0/Q, and B1_reg[4]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B1_OBUF[5] has multiple drivers: B1_reg[5]/Q, and B1_reg[5]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B1_OBUF[6] has multiple drivers: B1_reg[6]/Q, and B1_reg[6]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B1_OBUF[7] has multiple drivers: B1_reg[7]/Q, and B1_reg[7]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B1_OBUF[8] has multiple drivers: B1_reg[8]/Q, and B1_reg[8]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B1_OBUF[9] has multiple drivers: B1_reg[9]/Q, and B1_reg[9]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B2_OBUF[0] has multiple drivers: B2_reg/P[0], and B2_reg[0]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B2_OBUF[10] has multiple drivers: B2_reg/P[10], and B2_reg[10]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B2_OBUF[11] has multiple drivers: B2_reg/P[11], and B2_reg[11]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B2_OBUF[1] has multiple drivers: B2_reg/P[1], and B2_reg[1]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B2_OBUF[2] has multiple drivers: B2_reg/P[2], and B2_reg[2]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B2_OBUF[3] has multiple drivers: B2_reg/P[3], and B2_reg[3]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B2_OBUF[4] has multiple drivers: B2_reg/P[4], and B2_reg[4]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B2_OBUF[5] has multiple drivers: B2_reg/P[5], and B2_reg[5]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B2_OBUF[6] has multiple drivers: B2_reg/P[6], and B2_reg[6]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B2_OBUF[7] has multiple drivers: B2_reg/P[7], and B2_reg[7]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B2_OBUF[8] has multiple drivers: B2_reg/P[8], and B2_reg[8]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B2_OBUF[9] has multiple drivers: B2_reg/P[9], and B2_reg[9]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B3_OBUF[0] has multiple drivers: B3_reg[0]/Q, and B3_reg[0]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B3_OBUF[10] has multiple drivers: B3_reg[10]/Q, and B3_reg[10]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B3_OBUF[11] has multiple drivers: B3_reg[11]/Q, and B3_reg[11]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B3_OBUF[1] has multiple drivers: B3_reg[1]__0/Q, and B3_reg[1]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B3_OBUF[2] has multiple drivers: B3_reg[2]__0/Q, and B3_reg[2]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B3_OBUF[3] has multiple drivers: B3_reg[3]/Q, and B3_reg[3]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B3_OBUF[4] has multiple drivers: B3_reg[4]/Q, and B3_reg[4]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B3_OBUF[5] has multiple drivers: B3_reg[5]/Q, and B3_reg[5]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B3_OBUF[6] has multiple drivers: B3_reg[6]/Q, and B3_reg[6]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B3_OBUF[7] has multiple drivers: B3_reg[7]/Q, and B3_reg[7]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B3_OBUF[8] has multiple drivers: B3_reg[8]__0/Q, and B3_reg[8]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net B3_OBUF[9] has multiple drivers: B3_reg[9]__0/Q, and B3_reg[9]/Q.
+INFO: [Project 1-461] DRC finished with 44 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1446.445 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+11 Infos, 0 Warnings, 0 Critical Warnings and 45 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 22 19:09:29 2022...

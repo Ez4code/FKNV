@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../test.gen/sources_1/ip/mult_gen_singed/sim/mult_gen_singed.vhd" \
+
+nosort

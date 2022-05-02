@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../bicubic_pixel_caculate.gen/sources_1/ip/c_addsub_d0Bx/sim/c_addsub_d0Bx.vhd" \
+
+nosort

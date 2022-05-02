@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FKNV/test/test.sim/sim_1/synth/func/xsim/test_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_pixel
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FKNV/test/test.srcs/sim_1/new/test_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_tb
+ERROR: [VRFC 10-2989] 'sys_rst_n' is not declared [F:/FKNV/test/test.srcs/sim_1/new/test_tb.v:29]
+ERROR: [VRFC 10-2989] 'sys_rst_n' is not declared [F:/FKNV/test/test.srcs/sim_1/new/test_tb.v:31]
+ERROR: [VRFC 10-3155] cannot access memory 'pixel0_mem' directly [F:/FKNV/test/test.srcs/sim_1/new/test_tb.v:39]
+ERROR: [VRFC 10-395] cannot assign an unpacked type to a packed type [F:/FKNV/test/test.srcs/sim_1/new/test_tb.v:39]
+ERROR: [VRFC 10-1523] unpacked value/target cannot be used in assignment [F:/FKNV/test/test.srcs/sim_1/new/test_tb.v:39]
+ERROR: [VRFC 10-3155] cannot access memory 'pixel1_mem' directly [F:/FKNV/test/test.srcs/sim_1/new/test_tb.v:40]
+ERROR: [VRFC 10-395] cannot assign an unpacked type to a packed type [F:/FKNV/test/test.srcs/sim_1/new/test_tb.v:40]
+ERROR: [VRFC 10-1523] unpacked value/target cannot be used in assignment [F:/FKNV/test/test.srcs/sim_1/new/test_tb.v:40]
+ERROR: [VRFC 10-3155] cannot access memory 'pixel2_mem' directly [F:/FKNV/test/test.srcs/sim_1/new/test_tb.v:41]
+ERROR: [VRFC 10-395] cannot assign an unpacked type to a packed type [F:/FKNV/test/test.srcs/sim_1/new/test_tb.v:41]
+ERROR: [VRFC 10-1523] unpacked value/target cannot be used in assignment [F:/FKNV/test/test.srcs/sim_1/new/test_tb.v:41]
+ERROR: [VRFC 10-3155] cannot access memory 'pixel3_mem' directly [F:/FKNV/test/test.srcs/sim_1/new/test_tb.v:42]
+ERROR: [VRFC 10-395] cannot assign an unpacked type to a packed type [F:/FKNV/test/test.srcs/sim_1/new/test_tb.v:42]
+ERROR: [VRFC 10-1523] unpacked value/target cannot be used in assignment [F:/FKNV/test/test.srcs/sim_1/new/test_tb.v:42]
+ERROR: [VRFC 10-2865] module 'test_tb' ignored due to previous errors [F:/FKNV/test/test.srcs/sim_1/new/test_tb.v:2]

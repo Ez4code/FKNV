@@ -5417,3 +5417,384 @@ LOG::2022-04-14.22:38:23::SCWPlatform::Started generating the artifacts platform
 ERROR::2022-04-14.22:38:23::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
 LOG::2022-04-14.22:48:44::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
 ERROR::2022-04-14.22:48:44::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+TRACE::2022-04-29.17:25:45::SCWPlatform::Trying to open the hw design at F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:45::SCWPlatform::DSA given F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:45::SCWPlatform::DSA absoulate path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:45::SCWPlatform::DSA directory F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw
+TRACE::2022-04-29.17:25:45::SCWPlatform:: Platform Path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:45::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-04-29.17:25:45::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-04-29.17:25:52::SCWPlatform::Opened new HwDB with name SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWReader::Active system found as  SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWReader::Handling sysconfig SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWDomain::checking for install qemu data   : 
+TRACE::2022-04-29.17:25:52::SCWDomain:: Using the QEMU Data from install at  : F:/XILINX2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-04-29.17:25:52::SCWDomain:: Using the QEMU args  from install at  : F:/XILINX2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to open the hw design at F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA given F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA absoulate path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA directory F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Platform Path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to set the existing hwdb with name SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Opened existing hwdb SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to open the hw design at F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA given F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA absoulate path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA directory F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Platform Path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to set the existing hwdb with name SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Opened existing hwdb SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to open the hw design at F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA given F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA absoulate path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA directory F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Platform Path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to set the existing hwdb with name SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Opened existing hwdb SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.17:25:52::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to open the hw design at F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA given F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA absoulate path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA directory F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Platform Path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to set the existing hwdb with name SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Opened existing hwdb SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.17:25:52::SCWMssOS::Checking the sw design at  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-29.17:25:52::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-04-29.17:25:52::SCWMssOS::No sw design opened at  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-29.17:25:52::SCWMssOS::mss exists loading the mss file  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-29.17:25:52::SCWMssOS::Opened the sw design from mss  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-29.17:25:52::SCWMssOS::Adding the swdes entry F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-04-29.17:25:52::SCWMssOS::updating the scw layer about changes
+TRACE::2022-04-29.17:25:52::SCWMssOS::Opened the sw design.  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to open the hw design at F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA given F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA absoulate path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA directory F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Platform Path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to set the existing hwdb with name SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Opened existing hwdb SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.17:25:52::SCWMssOS::Checking the sw design at  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-29.17:25:52::SCWMssOS::DEBUG:  swdes dump  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-04-29.17:25:52::SCWMssOS::Sw design exists and opened at  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-29.17:25:52::SCWMssOS:: library already available in sw design:  xilffs:4.6
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to open the hw design at F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA given F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA absoulate path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA directory F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Platform Path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to set the existing hwdb with name SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Opened existing hwdb SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.17:25:52::SCWMssOS::Checking the sw design at  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-29.17:25:52::SCWMssOS::DEBUG:  swdes dump  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-04-29.17:25:52::SCWMssOS::Sw design exists and opened at  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-29.17:25:52::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2022-04-29.17:25:52::SCWMssOS::Saving the mss changes F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-29.17:25:52::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-29.17:25:52::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-29.17:25:52::SCWMssOS::Commit changes completed.
+TRACE::2022-04-29.17:25:52::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-04-29.17:25:52::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to open the hw design at F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA given F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA absoulate path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA directory F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Platform Path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to set the existing hwdb with name SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Opened existing hwdb SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.17:25:52::SCWMssOS::Checking the sw design at  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-29.17:25:52::SCWMssOS::DEBUG:  swdes dump  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-04-29.17:25:52::SCWMssOS::Sw design exists and opened at  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-29.17:25:52::SCWReader::No isolation master present  
+TRACE::2022-04-29.17:25:52::SCWDomain::checking for install qemu data   : 
+TRACE::2022-04-29.17:25:52::SCWDomain:: Using the QEMU Data from install at  : F:/XILINX2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-04-29.17:25:52::SCWDomain:: Using the QEMU args  from install at  : F:/XILINX2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to open the hw design at F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA given F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA absoulate path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA directory F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Platform Path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to set the existing hwdb with name SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Opened existing hwdb SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to open the hw design at F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA given F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA absoulate path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA directory F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Platform Path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to set the existing hwdb with name SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Opened existing hwdb SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to open the hw design at F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA given F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA absoulate path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform::DSA directory F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Platform Path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-04-29.17:25:52::SCWPlatform::Trying to set the existing hwdb with name SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Opened existing hwdb SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.17:25:52::SCWMssOS::Checking the sw design at  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-29.17:25:52::SCWMssOS::DEBUG:  swdes dump  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-04-29.17:25:52::SCWMssOS::No sw design opened at  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-29.17:25:52::SCWMssOS::mss exists loading the mss file  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-29.17:25:53::SCWMssOS::Opened the sw design from mss  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-29.17:25:53::SCWMssOS::Adding the swdes entry F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2022-04-29.17:25:53::SCWMssOS::updating the scw layer about changes
+TRACE::2022-04-29.17:25:53::SCWMssOS::Opened the sw design.  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-29.17:25:53::SCWPlatform::Trying to open the hw design at F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:53::SCWPlatform::DSA given F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:53::SCWPlatform::DSA absoulate path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:53::SCWPlatform::DSA directory F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw
+TRACE::2022-04-29.17:25:53::SCWPlatform:: Platform Path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:53::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-04-29.17:25:53::SCWPlatform::Trying to set the existing hwdb with name SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:53::SCWPlatform::Opened existing hwdb SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.17:25:53::SCWMssOS::Checking the sw design at  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-29.17:25:53::SCWMssOS::DEBUG:  swdes dump  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-04-29.17:25:53::SCWMssOS::Sw design exists and opened at  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-29.17:25:53::SCWMssOS:: library already available in sw design:  xilffs:4.6
+TRACE::2022-04-29.17:25:53::SCWMssOS::Saving the mss changes F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-29.17:25:53::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-29.17:25:53::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-29.17:25:53::SCWMssOS::Commit changes completed.
+TRACE::2022-04-29.17:25:53::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-04-29.17:25:53::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-04-29.17:25:53::SCWPlatform::Trying to open the hw design at F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:53::SCWPlatform::DSA given F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:53::SCWPlatform::DSA absoulate path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:53::SCWPlatform::DSA directory F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw
+TRACE::2022-04-29.17:25:53::SCWPlatform:: Platform Path F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/hw/SD2HDMI_wrapper.xsa
+TRACE::2022-04-29.17:25:53::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-04-29.17:25:53::SCWPlatform::Trying to set the existing hwdb with name SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:53::SCWPlatform::Opened existing hwdb SD2HDMI_wrapper
+TRACE::2022-04-29.17:25:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.17:25:53::SCWMssOS::Checking the sw design at  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-29.17:25:53::SCWMssOS::DEBUG:  swdes dump  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-04-29.17:25:53::SCWMssOS::Sw design exists and opened at  F:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-29.17:25:53::SCWReader::No isolation master present  
+LOG::2022-04-29.17:25:53::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-04-29.17:25:53::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-04-29.19:59:35::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-04-29.19:59:35::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-04-29.20:01:25::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-04-29.20:01:25::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-04-29.20:14:55::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-04-29.20:14:55::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-04-29.21:04:57::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-04-29.21:04:57::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.09:19:29::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.09:19:29::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.09:24:57::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.09:24:57::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.09:25:20::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.09:25:20::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.09:29:59::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.09:29:59::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.09:40:16::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.09:40:16::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.09:40:44::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.09:40:44::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.09:43:30::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.09:43:30::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.10:06:28::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.10:06:28::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.11:01:32::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.11:01:32::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.11:04:16::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.11:04:16::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.11:04:25::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.11:04:25::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.11:07:36::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.11:07:36::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.11:10:49::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.11:10:49::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.11:11:30::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.11:11:30::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.11:14:44::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.11:14:44::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.11:31:07::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.11:31:07::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.11:35:18::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.11:35:18::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.11:51:24::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.11:51:24::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.11:52:29::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.11:52:29::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.17:32:10::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.17:32:10::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.17:43:09::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.17:43:09::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.17:43:51::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.17:43:51::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.17:45:18::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.17:45:18::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.17:50:45::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.17:50:45::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.17:51:46::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.17:51:46::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.17:52:04::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.17:52:04::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.17:52:26::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.17:52:26::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.17:53:36::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.17:53:36::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.18:22:19::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.18:22:19::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.18:29:00::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.18:29:00::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.18:29:39::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.18:29:39::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.18:30:28::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.18:30:28::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.18:32:21::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.18:32:21::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.18:33:52::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.18:33:52::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.18:40:04::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.18:40:04::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.18:41:58::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.18:41:58::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:03:10::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:03:10::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:03:36::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:03:36::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:05:20::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:05:20::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:07:57::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:07:57::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:08:49::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:08:49::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:11:40::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:11:40::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:13:29::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:13:29::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:18:05::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:18:05::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:18:16::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:18:16::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:18:28::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:18:28::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:19:05::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:19:05::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:20:56::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:20:56::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:21:06::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:21:06::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:34:56::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:34:56::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:35:23::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:35:23::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:36:33::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:36:33::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:41:54::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:41:54::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:42:20::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:42:20::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:42:30::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:42:30::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:43:06::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:43:06::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:43:30::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:43:30::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:48:13::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:48:13::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:48:24::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:48:24::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:51:30::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:51:30::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:54:33::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:54:33::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:54:37::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:54:37::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:56:03::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:56:03::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:57:14::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:57:14::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:58:03::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:58:03::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.19:59:05::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.19:59:05::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.20:02:49::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.20:02:49::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.20:03:07::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.20:03:07::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.20:03:40::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.20:03:40::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.20:05:41::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.20:05:41::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.20:06:38::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.20:06:38::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.20:10:05::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.20:10:05::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.20:11:08::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.20:11:08::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.20:12:48::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.20:12:48::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.20:15:14::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.20:15:14::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.20:16:42::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.20:16:42::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.20:50:56::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.20:50:56::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.20:51:07::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.20:51:07::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.20:59:54::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.20:59:54::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.21:02:01::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.21:02:01::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.21:04:35::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.21:04:35::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.21:04:56::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.21:04:56::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.21:09:27::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.21:09:27::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.21:18:09::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.21:18:09::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.21:21:13::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.21:21:13::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.21:24:11::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.21:24:11::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.21:35:12::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.21:35:12::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.21:42:55::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.21:42:55::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.21:45:17::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.21:45:17::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.21:47:10::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.21:47:10::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.21:53:46::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.21:53:46::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.21:58:36::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.21:58:36::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.22:06:00::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.22:06:00::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.22:06:07::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.22:06:07::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+LOG::2022-05-02.22:06:33::SCWPlatform::Started generating the artifacts platform SD2HDMI_wrapper
+ERROR::2022-05-02.22:06:33::SCWMssOS::Error: Qemu arguments File given  D:/Xilinx2021.2/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist

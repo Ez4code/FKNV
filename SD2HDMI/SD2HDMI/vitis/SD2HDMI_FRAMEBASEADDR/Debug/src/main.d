@@ -26,7 +26,8 @@ src/main.o src/main.o: ../src/main.c \
  F\:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xil_exception.h \
  F\:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/ff.h \
  F\:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/integer.h \
- F\:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/ffconf.h
+ F\:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/ffconf.h \
+ ../src/bmp.h
 F\:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xil_types.h:
 F\:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xil_cache.h:
 F\:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xil_types.h:
@@ -56,3 +57,4 @@ F\:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI
 F\:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/ff.h:
 F\:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/integer.h:
 F\:/FKNV/SD2HDMI/SD2HDMI/vitis/SD2HDMI_wrapper/export/SD2HDMI_wrapper/sw/SD2HDMI_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/ffconf.h:
+../src/bmp.h:

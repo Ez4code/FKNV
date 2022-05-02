@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Apr 25 13:11:10 2022
+# Process ID: 16180
+# Current directory: F:/FKNV/bicubic_pixel_caculate
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26564 F:\FKNV\bicubic_pixel_caculate\bicubic_pixel_caculate.xpr
+# Log file: F:/FKNV/bicubic_pixel_caculate/vivado.log
+# Journal file: F:/FKNV/bicubic_pixel_caculate\vivado.jou
+# Running On: CY-20210824MCYK, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 16805 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.xpr
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.PortAWidth {12} CONFIG.OutputWidthHigh {35}] [get_ips mult_gen_singed]
+generate_target all [get_files  F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/ip/mult_gen_singed/mult_gen_singed.xci]
+catch { config_ip_cache -export [get_ips -all mult_gen_singed] }
+export_ip_user_files -of_objects [get_files F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/ip/mult_gen_singed/mult_gen_singed.xci] -no_script -sync -force -quiet
+reset_run mult_gen_singed_synth_1
+launch_runs mult_gen_singed_synth_1 -jobs 12
+wait_on_run mult_gen_singed_synth_1
+export_simulation -of_objects [get_files F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/ip/mult_gen_singed/mult_gen_singed.xci] -directory F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.ip_user_files/sim_scripts -ip_user_files_dir F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.ip_user_files -ipstatic_source_dir F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.cache/compile_simlib/modelsim} {questa=F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.cache/compile_simlib/questa} {riviera=F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.cache/compile_simlib/riviera} {activehdl=F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top get_pixel [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/bicubic_pixel_caculate.v]
+set_property is_enabled false [get_files  F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/height_d.v]
+set_property is_enabled false [get_files  F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/add_pixel.v]
+set_property is_enabled false [get_files  F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/dimension_bicubic.v]
+set_property is_global_include true [get_files  F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v]
+set_property is_global_include false [get_files  F:/FKNV/bicubic_pixel_caculate/bicubic_pixel_caculate.srcs/sources_1/new/get_pixel.v]
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1

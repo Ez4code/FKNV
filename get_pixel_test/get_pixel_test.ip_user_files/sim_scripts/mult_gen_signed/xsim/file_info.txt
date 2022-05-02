@@ -1,0 +1,1 @@
+mult_gen_signed.vhd,vhdl,xil_defaultlib,../../../../get_pixel_test.gen/sources_1/ip/mult_gen_signed/sim/mult_gen_signed.vhd,

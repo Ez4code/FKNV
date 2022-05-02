@@ -278,3 +278,209 @@ timestamp=[2022-04-14 22:38:23], mode=BUILD, duration=0:00:00.396, duration_ms=3
 timestamp=[2022-04-14 22:38:29], mode=BUILD, duration=0:00:04.432, duration_ms=4432, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
 timestamp=[2022-04-14 22:48:44], mode=PLATFORM_GENERATION, duration=0:00:01.740, duration_ms=1740, data={name=SD2HDMI_wrapper}
 timestamp=[2022-04-14 22:48:45], mode=BUILD, duration=0:00:00.945, duration_ms=945, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-04-29 10:46:39], mode=WORKBENCH_START, duration=0:00:27.112, duration_ms=27112, data={}
+timestamp=[2022-04-29 10:46:41], mode=WORKBENCH_UI_INIT, duration=0:00:02.281, duration_ms=2281, data={editors_count=3, platform_editors_count=1, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,SD2HDMI,SD2HDMI_FRAMEBASEADDR,SD2HDMI_FRAMEBASEADDR_system,SD2HDMI_system,SD2HDMI_wrapper}
+timestamp=[2022-04-29 10:46:44], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:03.545, duration_ms=3545, data={}
+timestamp=[2022-04-29 17:25:54], mode=PLATFORM_GENERATION, duration=0:00:14.363, duration_ms=14363, data={name=SD2HDMI_wrapper}
+timestamp=[2022-04-29 17:25:58], mode=BUILD, duration=0:00:02.232, duration_ms=2232, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-04-29 19:59:36], mode=PLATFORM_GENERATION, duration=0:00:05.699, duration_ms=5699, data={name=SD2HDMI_wrapper}
+timestamp=[2022-04-29 19:59:38], mode=BUILD, duration=0:00:01.675, duration_ms=1675, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-04-29 20:01:25], mode=PLATFORM_GENERATION, duration=0:00:01.581, duration_ms=1581, data={name=SD2HDMI_wrapper}
+timestamp=[2022-04-29 20:01:27], mode=BUILD, duration=0:00:01.705, duration_ms=1705, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-04-29 20:14:56], mode=PLATFORM_GENERATION, duration=0:00:03.871, duration_ms=3871, data={name=SD2HDMI_wrapper}
+timestamp=[2022-04-29 20:14:58], mode=BUILD, duration=0:00:02.456, duration_ms=2456, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-04-29 21:04:57], mode=PLATFORM_GENERATION, duration=0:00:03.939, duration_ms=3939, data={name=SD2HDMI_wrapper}
+timestamp=[2022-04-29 21:05:00], mode=BUILD, duration=0:00:02.583, duration_ms=2583, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 09:19:30], mode=PLATFORM_GENERATION, duration=0:00:11.638, duration_ms=11638, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 09:19:34], mode=BUILD, duration=0:00:03.786, duration_ms=3786, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 09:24:57], mode=PLATFORM_GENERATION, duration=0:00:02.212, duration_ms=2212, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 09:24:58], mode=BUILD, duration=0:00:00.730, duration_ms=730, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 09:25:21], mode=PLATFORM_GENERATION, duration=0:00:01.660, duration_ms=1660, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 09:25:21], mode=BUILD, duration=0:00:00.535, duration_ms=535, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 09:30:00], mode=PLATFORM_GENERATION, duration=0:00:01.967, duration_ms=1967, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 09:30:00], mode=BUILD, duration=0:00:00.603, duration_ms=603, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 09:40:16], mode=PLATFORM_GENERATION, duration=0:00:02.083, duration_ms=2083, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 09:40:20], mode=BUILD, duration=0:00:00.609, duration_ms=609, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 09:40:44], mode=PLATFORM_GENERATION, duration=0:00:03.041, duration_ms=3041, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 09:40:48], mode=BUILD, duration=0:00:00.369, duration_ms=369, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 09:43:31], mode=PLATFORM_GENERATION, duration=0:00:02.671, duration_ms=2671, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 09:43:31], mode=BUILD, duration=0:00:00.667, duration_ms=667, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 10:06:28], mode=PLATFORM_GENERATION, duration=0:00:05.415, duration_ms=5415, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 10:06:30], mode=BUILD, duration=0:00:01.772, duration_ms=1772, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 11:01:32], mode=PLATFORM_GENERATION, duration=0:00:01.604, duration_ms=1604, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 11:01:33], mode=BUILD, duration=0:00:00.529, duration_ms=529, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 11:04:16], mode=PLATFORM_GENERATION, duration=0:00:01.600, duration_ms=1600, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 11:04:17], mode=BUILD, duration=0:00:00.461, duration_ms=461, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 11:04:25], mode=PLATFORM_GENERATION, duration=0:00:01.612, duration_ms=1612, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 11:04:25], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 11:07:36], mode=PLATFORM_GENERATION, duration=0:00:01.607, duration_ms=1607, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 11:07:36], mode=BUILD, duration=0:00:00.474, duration_ms=474, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 11:10:49], mode=PLATFORM_GENERATION, duration=0:00:01.605, duration_ms=1605, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 11:10:50], mode=BUILD, duration=0:00:00.476, duration_ms=476, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 11:11:30], mode=PLATFORM_GENERATION, duration=0:00:01.612, duration_ms=1612, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 11:11:30], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 11:14:44], mode=PLATFORM_GENERATION, duration=0:00:01.598, duration_ms=1598, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 11:14:45], mode=BUILD, duration=0:00:00.468, duration_ms=468, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 11:31:07], mode=PLATFORM_GENERATION, duration=0:00:01.599, duration_ms=1599, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 11:31:07], mode=BUILD, duration=0:00:00.495, duration_ms=495, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 11:35:18], mode=PLATFORM_GENERATION, duration=0:00:01.587, duration_ms=1587, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 11:35:19], mode=BUILD, duration=0:00:00.470, duration_ms=470, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 11:51:25], mode=PLATFORM_GENERATION, duration=0:00:01.668, duration_ms=1668, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 11:51:25], mode=BUILD, duration=0:00:00.541, duration_ms=541, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 11:52:30], mode=PLATFORM_GENERATION, duration=0:00:01.598, duration_ms=1598, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 11:52:30], mode=BUILD, duration=0:00:00.469, duration_ms=469, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 17:32:10], mode=PLATFORM_GENERATION, duration=0:00:01.665, duration_ms=1665, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 17:32:10], mode=BUILD, duration=0:00:00.594, duration_ms=594, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 17:43:10], mode=PLATFORM_GENERATION, duration=0:00:01.663, duration_ms=1663, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 17:43:10], mode=BUILD, duration=0:00:00.348, duration_ms=348, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 17:43:51], mode=PLATFORM_GENERATION, duration=0:00:01.593, duration_ms=1593, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 17:43:51], mode=BUILD, duration=0:00:00.528, duration_ms=528, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 17:45:18], mode=PLATFORM_GENERATION, duration=0:00:01.615, duration_ms=1615, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 17:45:18], mode=BUILD, duration=0:00:00.469, duration_ms=469, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 17:50:46], mode=PLATFORM_GENERATION, duration=0:00:01.600, duration_ms=1600, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 17:50:46], mode=BUILD, duration=0:00:00.284, duration_ms=284, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 17:51:46], mode=PLATFORM_GENERATION, duration=0:00:01.597, duration_ms=1597, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 17:51:46], mode=BUILD, duration=0:00:00.475, duration_ms=475, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 17:52:04], mode=PLATFORM_GENERATION, duration=0:00:01.617, duration_ms=1617, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 17:52:04], mode=BUILD, duration=0:00:00.228, duration_ms=228, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 17:52:26], mode=PLATFORM_GENERATION, duration=0:00:01.615, duration_ms=1615, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 17:52:26], mode=BUILD, duration=0:00:00.225, duration_ms=225, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 17:53:36], mode=PLATFORM_GENERATION, duration=0:00:01.593, duration_ms=1593, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 17:53:36], mode=BUILD, duration=0:00:00.479, duration_ms=479, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 18:22:19], mode=PLATFORM_GENERATION, duration=0:00:04.641, duration_ms=4641, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 18:22:20], mode=BUILD, duration=0:00:01.161, duration_ms=1161, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 18:29:00], mode=PLATFORM_GENERATION, duration=0:00:01.791, duration_ms=1791, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 18:29:00], mode=BUILD, duration=0:00:00.358, duration_ms=358, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 18:29:39], mode=PLATFORM_GENERATION, duration=0:00:01.667, duration_ms=1667, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 18:29:40], mode=BUILD, duration=0:00:01.151, duration_ms=1151, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 18:30:28], mode=PLATFORM_GENERATION, duration=0:00:01.673, duration_ms=1673, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 18:30:29], mode=BUILD, duration=0:00:00.557, duration_ms=557, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 18:32:21], mode=PLATFORM_GENERATION, duration=0:00:01.661, duration_ms=1661, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 18:32:22], mode=BUILD, duration=0:00:00.549, duration_ms=549, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 18:33:52], mode=PLATFORM_GENERATION, duration=0:00:01.675, duration_ms=1675, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 18:33:53], mode=BUILD, duration=0:00:00.596, duration_ms=596, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 18:40:04], mode=PLATFORM_GENERATION, duration=0:00:01.678, duration_ms=1678, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 18:40:04], mode=BUILD, duration=0:00:00.227, duration_ms=227, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 18:41:58], mode=PLATFORM_GENERATION, duration=0:00:01.736, duration_ms=1736, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 18:41:58], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:03:10], mode=PLATFORM_GENERATION, duration=0:00:01.728, duration_ms=1728, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:03:11], mode=BUILD, duration=0:00:00.349, duration_ms=349, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:03:36], mode=PLATFORM_GENERATION, duration=0:00:01.669, duration_ms=1669, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:03:36], mode=BUILD, duration=0:00:00.538, duration_ms=538, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:05:20], mode=PLATFORM_GENERATION, duration=0:00:01.732, duration_ms=1732, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:05:21], mode=BUILD, duration=0:00:00.536, duration_ms=536, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:07:57], mode=PLATFORM_GENERATION, duration=0:00:01.686, duration_ms=1686, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:07:58], mode=BUILD, duration=0:00:00.548, duration_ms=548, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:08:06], mode=BUILD, duration=0:00:07.377, duration_ms=7377, data={name=SD2HDMI_FRAMEBASEADDR_system, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:08:06], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=SD2HDMI, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:08:12], mode=BUILD, duration=0:00:05.060, duration_ms=5060, data={name=SD2HDMI_system, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:08:49], mode=PLATFORM_GENERATION, duration=0:00:01.669, duration_ms=1669, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:08:49], mode=BUILD, duration=0:00:00.541, duration_ms=541, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:11:40], mode=PLATFORM_GENERATION, duration=0:00:01.732, duration_ms=1732, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:11:41], mode=BUILD, duration=0:00:00.545, duration_ms=545, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:13:29], mode=PLATFORM_GENERATION, duration=0:00:01.726, duration_ms=1726, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:13:29], mode=BUILD, duration=0:00:00.547, duration_ms=547, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:18:05], mode=PLATFORM_GENERATION, duration=0:00:01.747, duration_ms=1747, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:18:05], mode=BUILD, duration=0:00:00.528, duration_ms=528, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:18:16], mode=PLATFORM_GENERATION, duration=0:00:01.705, duration_ms=1705, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:18:17], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:18:28], mode=PLATFORM_GENERATION, duration=0:00:01.670, duration_ms=1670, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:18:28], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:19:05], mode=PLATFORM_GENERATION, duration=0:00:01.670, duration_ms=1670, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:19:06], mode=BUILD, duration=0:00:00.546, duration_ms=546, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:20:56], mode=PLATFORM_GENERATION, duration=0:00:01.717, duration_ms=1717, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:20:56], mode=BUILD, duration=0:00:00.548, duration_ms=548, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:21:06], mode=PLATFORM_GENERATION, duration=0:00:01.737, duration_ms=1737, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:21:07], mode=BUILD, duration=0:00:00.552, duration_ms=552, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:34:57], mode=PLATFORM_GENERATION, duration=0:00:01.788, duration_ms=1788, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:34:57], mode=BUILD, duration=0:00:00.588, duration_ms=588, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:35:23], mode=PLATFORM_GENERATION, duration=0:00:01.716, duration_ms=1716, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:35:23], mode=BUILD, duration=0:00:00.228, duration_ms=228, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:36:33], mode=PLATFORM_GENERATION, duration=0:00:01.677, duration_ms=1677, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:36:34], mode=BUILD, duration=0:00:00.475, duration_ms=475, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:41:54], mode=PLATFORM_GENERATION, duration=0:00:01.672, duration_ms=1672, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:41:55], mode=BUILD, duration=0:00:00.290, duration_ms=290, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:42:20], mode=PLATFORM_GENERATION, duration=0:00:01.675, duration_ms=1675, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:42:21], mode=BUILD, duration=0:00:00.353, duration_ms=353, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:42:30], mode=PLATFORM_GENERATION, duration=0:00:01.671, duration_ms=1671, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:42:31], mode=BUILD, duration=0:00:00.289, duration_ms=289, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:43:06], mode=PLATFORM_GENERATION, duration=0:00:01.675, duration_ms=1675, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:43:07], mode=BUILD, duration=0:00:00.538, duration_ms=538, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:43:30], mode=PLATFORM_GENERATION, duration=0:00:01.670, duration_ms=1670, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:43:31], mode=BUILD, duration=0:00:00.225, duration_ms=225, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:48:14], mode=PLATFORM_GENERATION, duration=0:00:01.676, duration_ms=1676, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:48:14], mode=BUILD, duration=0:00:00.537, duration_ms=537, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:48:24], mode=PLATFORM_GENERATION, duration=0:00:01.671, duration_ms=1671, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:48:24], mode=BUILD, duration=0:00:00.535, duration_ms=535, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:51:30], mode=PLATFORM_GENERATION, duration=0:00:01.667, duration_ms=1667, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:51:31], mode=BUILD, duration=0:00:00.541, duration_ms=541, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:54:33], mode=PLATFORM_GENERATION, duration=0:00:05.076, duration_ms=5076, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:54:34], mode=BUILD, duration=0:00:00.534, duration_ms=534, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:54:37], mode=PLATFORM_GENERATION, duration=0:00:01.660, duration_ms=1660, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:54:37], mode=BUILD, duration=0:00:00.225, duration_ms=225, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:56:03], mode=PLATFORM_GENERATION, duration=0:00:01.681, duration_ms=1681, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:56:04], mode=BUILD, duration=0:00:00.534, duration_ms=534, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:57:14], mode=PLATFORM_GENERATION, duration=0:00:01.666, duration_ms=1666, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:57:15], mode=BUILD, duration=0:00:00.539, duration_ms=539, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:58:03], mode=PLATFORM_GENERATION, duration=0:00:01.660, duration_ms=1660, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:58:03], mode=BUILD, duration=0:00:00.542, duration_ms=542, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 19:59:05], mode=PLATFORM_GENERATION, duration=0:00:01.692, duration_ms=1692, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 19:59:06], mode=BUILD, duration=0:00:00.538, duration_ms=538, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 20:02:49], mode=PLATFORM_GENERATION, duration=0:00:01.661, duration_ms=1661, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 20:02:49], mode=BUILD, duration=0:00:00.293, duration_ms=293, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 20:03:07], mode=PLATFORM_GENERATION, duration=0:00:01.673, duration_ms=1673, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 20:03:08], mode=BUILD, duration=0:00:00.478, duration_ms=478, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 20:03:40], mode=PLATFORM_GENERATION, duration=0:00:01.678, duration_ms=1678, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 20:03:40], mode=BUILD, duration=0:00:00.534, duration_ms=534, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 20:05:42], mode=PLATFORM_GENERATION, duration=0:00:01.734, duration_ms=1734, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 20:05:42], mode=BUILD, duration=0:00:00.479, duration_ms=479, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 20:06:38], mode=PLATFORM_GENERATION, duration=0:00:01.665, duration_ms=1665, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 20:06:39], mode=BUILD, duration=0:00:00.535, duration_ms=535, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 20:10:05], mode=PLATFORM_GENERATION, duration=0:00:01.667, duration_ms=1667, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 20:10:05], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 20:11:09], mode=PLATFORM_GENERATION, duration=0:00:01.687, duration_ms=1687, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 20:11:09], mode=BUILD, duration=0:00:00.550, duration_ms=550, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 20:12:48], mode=PLATFORM_GENERATION, duration=0:00:01.750, duration_ms=1750, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 20:12:48], mode=BUILD, duration=0:00:00.548, duration_ms=548, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 20:15:14], mode=PLATFORM_GENERATION, duration=0:00:01.732, duration_ms=1732, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 20:15:15], mode=BUILD, duration=0:00:00.549, duration_ms=549, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 20:16:42], mode=PLATFORM_GENERATION, duration=0:00:01.669, duration_ms=1669, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 20:16:42], mode=BUILD, duration=0:00:00.535, duration_ms=535, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 20:50:56], mode=PLATFORM_GENERATION, duration=0:00:01.727, duration_ms=1727, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 20:50:57], mode=BUILD, duration=0:00:00.600, duration_ms=600, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 20:51:07], mode=PLATFORM_GENERATION, duration=0:00:01.731, duration_ms=1731, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 20:51:07], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 20:59:54], mode=PLATFORM_GENERATION, duration=0:00:01.721, duration_ms=1721, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 20:59:54], mode=BUILD, duration=0:00:00.538, duration_ms=538, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 21:02:01], mode=PLATFORM_GENERATION, duration=0:00:01.669, duration_ms=1669, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 21:02:02], mode=BUILD, duration=0:00:00.543, duration_ms=543, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 21:04:35], mode=PLATFORM_GENERATION, duration=0:00:01.657, duration_ms=1657, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 21:04:36], mode=BUILD, duration=0:00:00.533, duration_ms=533, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 21:04:56], mode=PLATFORM_GENERATION, duration=0:00:01.657, duration_ms=1657, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 21:04:57], mode=BUILD, duration=0:00:00.532, duration_ms=532, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 21:09:27], mode=PLATFORM_GENERATION, duration=0:00:01.653, duration_ms=1653, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 21:09:28], mode=BUILD, duration=0:00:00.542, duration_ms=542, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 21:18:09], mode=PLATFORM_GENERATION, duration=0:00:02.119, duration_ms=2119, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 21:18:10], mode=BUILD, duration=0:00:00.661, duration_ms=661, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 21:21:13], mode=PLATFORM_GENERATION, duration=0:00:01.661, duration_ms=1661, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 21:21:13], mode=BUILD, duration=0:00:00.540, duration_ms=540, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 21:24:11], mode=PLATFORM_GENERATION, duration=0:00:01.670, duration_ms=1670, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 21:24:12], mode=BUILD, duration=0:00:00.531, duration_ms=531, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 21:35:12], mode=PLATFORM_GENERATION, duration=0:00:01.975, duration_ms=1975, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 21:35:13], mode=BUILD, duration=0:00:00.660, duration_ms=660, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 21:42:55], mode=PLATFORM_GENERATION, duration=0:00:01.670, duration_ms=1670, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 21:42:56], mode=BUILD, duration=0:00:00.551, duration_ms=551, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 21:45:18], mode=PLATFORM_GENERATION, duration=0:00:01.592, duration_ms=1592, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 21:45:18], mode=BUILD, duration=0:00:00.536, duration_ms=536, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 21:47:10], mode=PLATFORM_GENERATION, duration=0:00:01.598, duration_ms=1598, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 21:47:11], mode=BUILD, duration=0:00:00.478, duration_ms=478, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 21:53:46], mode=PLATFORM_GENERATION, duration=0:00:01.611, duration_ms=1611, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 21:53:47], mode=BUILD, duration=0:00:00.469, duration_ms=469, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 21:58:37], mode=PLATFORM_GENERATION, duration=0:00:01.659, duration_ms=1659, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 21:58:37], mode=BUILD, duration=0:00:00.542, duration_ms=542, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 22:06:00], mode=PLATFORM_GENERATION, duration=0:00:01.590, duration_ms=1590, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 22:06:01], mode=BUILD, duration=0:00:00.472, duration_ms=472, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 22:06:07], mode=PLATFORM_GENERATION, duration=0:00:01.592, duration_ms=1592, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 22:06:07], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
+timestamp=[2022-05-02 22:06:33], mode=PLATFORM_GENERATION, duration=0:00:01.587, duration_ms=1587, data={name=SD2HDMI_wrapper}
+timestamp=[2022-05-02 22:06:34], mode=BUILD, duration=0:00:00.226, duration_ms=226, data={name=SD2HDMI_FRAMEBASEADDR, configuration=Debug, clean_build=false}
